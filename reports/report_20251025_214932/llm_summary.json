@@ -1,0 +1,5716 @@
+{
+  "summary": {
+    "total_agents": 3,
+    "total_issues": 570,
+    "total_deaths": 0,
+    "total_retries": 0,
+    "issues_by_type": {
+      "softlock": 570
+    },
+    "anomalies_count": 570
+  },
+  "critical_issues": [
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.4053447,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.5059013,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.6063766,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.7068565,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.8073094,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.9078531,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.008164,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.1085138,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.2091079,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.3106887,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.4111826,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.5114725,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.611777,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.7121377,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.8127372,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.9131231,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.013463,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.1137397,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.2140431,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.314328,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.414731,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.5150523,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.6159692,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.716207,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.8165517,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.9168358,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.0170393,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.1174507,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.2184293,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.318923,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.4195364,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.519935,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.620399,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.7212632,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.8220484,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.9222898,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.0227284,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.1235218,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.2239995,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.3244016,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.425009,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.5257082,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.6260555,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.7267194,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.8276742,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.927852,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.0307095,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.1309571,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.23116,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.3313246,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.4315295,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.531772,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.632093,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.732367,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.8327327,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.9330103,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.0332155,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.133392,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.23373,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.3339624,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.4343622,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.5347288,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.6356297,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.7360718,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.8363326,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.938036,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.0382748,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.1385307,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.2389045,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.3405154,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.440715,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.5414865,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.6426263,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.743311,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.844021,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.9452336,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.0456376,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.1459382,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.2460985,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.3462594,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.4468997,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.5470817,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.647984,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.7485578,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.849904,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.9503453,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.0506744,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.1510236,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.2513392,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.351601,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.4528701,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.5532284,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.6534925,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.7537823,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.854203,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.954711,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.0549932,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.1553872,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.2559645,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.3565989,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.4570017,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.5580344,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.6582904,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.7587645,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.8590844,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.9596524,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.0600753,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.1603847,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.2610664,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.361399,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.4618506,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.5622635,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.6628613,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.7638178,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.8643482,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.965029,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.0656855,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.166784,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.2672298,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.3678727,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.468082,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.5690634,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.6695824,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.7701716,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.8707106,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.97107,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.0716732,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.1719878,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.273338,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.3737931,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.4745154,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.5753613,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.6760669,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.7782285,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.8792572,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.9794,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.0795934,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.1803033,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.2809021,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.3818402,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.4824677,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.5827565,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.6831586,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.7838771,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.884221,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.9853387,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.08602,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.186785,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.2872927,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.387521,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.4876885,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.5878582,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.6892169,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.790041,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.892128,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.9923873,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.0928357,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.1933382,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.2936969,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.3938935,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.4941697,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.5944219,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.6947067,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.7950945,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.8963695,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.9978926,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.0985212,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.1988895,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.2993252,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.399648,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.5000453,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.6004004,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.7006345,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.8008335,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.9010186,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.0013328,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.1020756,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.2025867,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.3031502,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.403946,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.5047388,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.6051323,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.7068913,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.8076184,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.9197664,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.020787,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.121234,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.2219641,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.3233824,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.424603,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.407019,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.5073242,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.6076798,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.7079954,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.8083248,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.908721,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.0089214,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.1091683,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.209588,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.3101847,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.4108126,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.5111203,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.6114209,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.7118778,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.8125124,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.913307,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.0135229,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.113822,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.2142851,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.3144279,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.4147615,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.515142,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.615598,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.7158706,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.8161397,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.916571,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.0169122,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.1172776,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.2190142,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.319266,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.4212613,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.5214965,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.6217225,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.7219996,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.822289,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.9225118,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.0229287,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.1234212,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.2241561,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.3245032,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.425311,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.525877,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.626225,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.7266188,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.8274784,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.9276996,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.0278964,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.1282556,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.2285132,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.3288121,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.4291518,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.52968,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.6300387,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.730644,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.8314233,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.9319448,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.0322068,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.1325643,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.2335477,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.3340158,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.434475,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.5349207,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.6361804,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.7370589,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.8372004,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.9382617,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.0385287,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.1389928,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.239257,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.340102,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.4404943,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.541254,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.6423647,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.743372,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.8441398,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.9450853,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.0454082,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.1457422,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.2459495,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.3461428,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.4465544,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.5468438,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.6475759,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.7488883,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.8502529,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.950735,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.0509768,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.1511452,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.251402,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.351654,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.4530926,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.5545325,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.6547756,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.7549987,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.855341,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.9557862,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.0559433,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.1561594,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.2571828,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.3581872,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.4586709,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.5590365,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.6592295,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.7600873,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.8611658,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.9616086,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.061961,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.162931,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.2631552,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.3634882,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.4637895,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.5641596,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.6644955,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.7647696,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.8649762,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.9654267,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.0658996,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.1664639,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.266761,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.367659,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.468009,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.5687203,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.6691632,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.7699184,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.8709993,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.9712698,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.071942,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.1721785,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.2738693,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.3744526,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.4747136,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.5754247,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.6764238,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.7780535,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.8789017,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.9792554,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.0796711,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.1801586,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.281723,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.3821373,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.4827335,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.5830011,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.6836562,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.7847965,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.8849995,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.9852064,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.085578,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.1864977,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.2868567,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.3870432,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.4873319,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.5876863,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.6887648,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.789424,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.8902006,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.991397,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.0918887,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.1922371,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.2927744,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.3930917,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.4939702,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.5942907,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.6946428,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.794982,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.8963,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.9977965,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.09842,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.199314,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.2996757,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.4000902,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.5004036,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.6006467,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.7008996,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.801104,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.901252,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.0025704,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.102745,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.203169,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.3035054,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.4045808,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.5055776,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.6058133,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.7061613,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.8070285,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.9190028,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.0206192,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.1214736,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.2225034,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.3230274,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.424787,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.4081297,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.5089698,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.6092777,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.7097678,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.810063,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409153.9105623,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.010819,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.1111174,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.2115328,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.3118045,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.4120817,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.5122638,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.6125503,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.7128263,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.8131151,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409154.9137006,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.0138159,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.1139848,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.2146125,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.3147547,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.4149067,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.515288,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.6157722,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.7160895,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.81687,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409155.9171982,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.0173607,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.1175344,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.2185419,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.3190513,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.4197087,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.5200531,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.6205704,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.720987,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.8217947,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409156.9221177,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.0229752,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.1238582,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.2244055,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.3246193,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.4255965,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.5260198,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.626248,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.7265854,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.8271432,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409157.927431,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.0277328,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.128121,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.2285788,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.328938,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.4292343,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.5295336,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.6302137,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.7309277,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.831337,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409158.93183,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.0324306,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.1328826,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.233288,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.3340595,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.4346778,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.5350168,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.636225,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.736699,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.8369076,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409159.9375415,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.0378463,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.1382582,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.2393014,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.3404047,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.4408276,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.5415332,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.642122,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.7428718,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.8433433,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409160.943858,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.044614,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.1448815,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.2452054,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.3454921,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.4458783,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.546644,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.6477926,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.7488236,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.849709,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409161.950951,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.0511227,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.1513395,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.2516294,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.3517375,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.4529805,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.5546536,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.6549003,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.755119,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.8554635,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409162.955966,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.056162,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.1563897,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.2574537,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.3579419,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.4583302,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.5587428,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.6589332,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.7594898,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.8597968,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409163.9602149,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.0607235,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.1609042,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.261517,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.361804,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.4621813,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.5623693,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.663133,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.763701,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.864171,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409164.9648118,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.0653214,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.166074,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.266815,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.3674712,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.4678776,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.56892,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.669317,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.7696972,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.8708162,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409165.9713705,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.0722485,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.17245,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.273738,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.374255,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.474652,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.575277,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.6765115,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.777635,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.879196,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409166.9801836,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.080336,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.1805284,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.2813458,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.3822052,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.483028,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.5831819,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.6838498,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.7843044,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.8845642,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409167.9849377,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.0852275,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.185938,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.2864969,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.3869498,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.4873075,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.5876315,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.6893103,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.7903059,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.8911502,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409168.9919043,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.0923388,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.1926165,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.2931464,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.3933876,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.4937446,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.5943959,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.694835,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.7952712,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.8959954,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409169.9971638,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.097788,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.198382,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.2987452,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.3991015,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.4996028,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.5998967,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.7002447,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.800573,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409170.9008784,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.0015376,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.1019168,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.2028344,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.303323,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.404338,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.5059423,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.6063654,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.706841,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.8075383,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409171.919366,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.0207157,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.121117,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.2222962,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.32331,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    },
+    {
+      "type": "softlock",
+      "timestamp": 1761409172.4247031,
+      "location": [
+        0,
+        0,
+        0
+      ],
+      "details": "Agent appears to be stuck in location"
+    }
+  ],
+  "engagement_assessment": "potentially low - game might be too easy or unengaging",
+  "fun_assessment_prompt": "\n        Please assess the fun/engagement level of this game based on the following playtesting data:\n\n        - Total agents: 3\n        - Total issues detected: 570\n        - Issues by type: {'softlock': 570}\n        - Average retries per agent: 0.00\n        - Total deaths: 0\n        - Anomalies detected: 570\n\n        Based on these metrics, assess:\n        1. Is the game engaging?\n        2. Is it appropriately challenging?\n        3. Are there any major obstacles to fun?\n        4. What improvements would you suggest?\n        "
+}

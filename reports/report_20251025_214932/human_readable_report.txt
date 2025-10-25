@@ -1,0 +1,2307 @@
+AI Playtesting System - Human-Readable Report
+==================================================
+
+Test Session Summary
+--------------------
+Generated At: 2025-10-25T21:49:32.525491
+Total Agents: 3
+Total Test Time: 60.07 seconds
+Total Deaths: 0
+Total Retries: 0
+
+Aggregated Metrics
+------------------
+Total Issues Detected: 570
+Average Retries per Agent: 0.00
+Average Deaths per Agent: 0.00
+
+Issues by Type
+---------------
+  softlock: 570
+
+Anomalies Detected
+------------------
+1. Type: softlock
+   Timestamp: 1761409153.4053447
+   Details: Agent appears to be stuck in location
+
+2. Type: softlock
+   Timestamp: 1761409153.5059013
+   Details: Agent appears to be stuck in location
+
+3. Type: softlock
+   Timestamp: 1761409153.6063766
+   Details: Agent appears to be stuck in location
+
+4. Type: softlock
+   Timestamp: 1761409153.7068565
+   Details: Agent appears to be stuck in location
+
+5. Type: softlock
+   Timestamp: 1761409153.8073094
+   Details: Agent appears to be stuck in location
+
+6. Type: softlock
+   Timestamp: 1761409153.9078531
+   Details: Agent appears to be stuck in location
+
+7. Type: softlock
+   Timestamp: 1761409154.008164
+   Details: Agent appears to be stuck in location
+
+8. Type: softlock
+   Timestamp: 1761409154.1085138
+   Details: Agent appears to be stuck in location
+
+9. Type: softlock
+   Timestamp: 1761409154.2091079
+   Details: Agent appears to be stuck in location
+
+10. Type: softlock
+   Timestamp: 1761409154.3106887
+   Details: Agent appears to be stuck in location
+
+11. Type: softlock
+   Timestamp: 1761409154.4111826
+   Details: Agent appears to be stuck in location
+
+12. Type: softlock
+   Timestamp: 1761409154.5114725
+   Details: Agent appears to be stuck in location
+
+13. Type: softlock
+   Timestamp: 1761409154.611777
+   Details: Agent appears to be stuck in location
+
+14. Type: softlock
+   Timestamp: 1761409154.7121377
+   Details: Agent appears to be stuck in location
+
+15. Type: softlock
+   Timestamp: 1761409154.8127372
+   Details: Agent appears to be stuck in location
+
+16. Type: softlock
+   Timestamp: 1761409154.9131231
+   Details: Agent appears to be stuck in location
+
+17. Type: softlock
+   Timestamp: 1761409155.013463
+   Details: Agent appears to be stuck in location
+
+18. Type: softlock
+   Timestamp: 1761409155.1137397
+   Details: Agent appears to be stuck in location
+
+19. Type: softlock
+   Timestamp: 1761409155.2140431
+   Details: Agent appears to be stuck in location
+
+20. Type: softlock
+   Timestamp: 1761409155.314328
+   Details: Agent appears to be stuck in location
+
+21. Type: softlock
+   Timestamp: 1761409155.414731
+   Details: Agent appears to be stuck in location
+
+22. Type: softlock
+   Timestamp: 1761409155.5150523
+   Details: Agent appears to be stuck in location
+
+23. Type: softlock
+   Timestamp: 1761409155.6159692
+   Details: Agent appears to be stuck in location
+
+24. Type: softlock
+   Timestamp: 1761409155.716207
+   Details: Agent appears to be stuck in location
+
+25. Type: softlock
+   Timestamp: 1761409155.8165517
+   Details: Agent appears to be stuck in location
+
+26. Type: softlock
+   Timestamp: 1761409155.9168358
+   Details: Agent appears to be stuck in location
+
+27. Type: softlock
+   Timestamp: 1761409156.0170393
+   Details: Agent appears to be stuck in location
+
+28. Type: softlock
+   Timestamp: 1761409156.1174507
+   Details: Agent appears to be stuck in location
+
+29. Type: softlock
+   Timestamp: 1761409156.2184293
+   Details: Agent appears to be stuck in location
+
+30. Type: softlock
+   Timestamp: 1761409156.318923
+   Details: Agent appears to be stuck in location
+
+31. Type: softlock
+   Timestamp: 1761409156.4195364
+   Details: Agent appears to be stuck in location
+
+32. Type: softlock
+   Timestamp: 1761409156.519935
+   Details: Agent appears to be stuck in location
+
+33. Type: softlock
+   Timestamp: 1761409156.620399
+   Details: Agent appears to be stuck in location
+
+34. Type: softlock
+   Timestamp: 1761409156.7212632
+   Details: Agent appears to be stuck in location
+
+35. Type: softlock
+   Timestamp: 1761409156.8220484
+   Details: Agent appears to be stuck in location
+
+36. Type: softlock
+   Timestamp: 1761409156.9222898
+   Details: Agent appears to be stuck in location
+
+37. Type: softlock
+   Timestamp: 1761409157.0227284
+   Details: Agent appears to be stuck in location
+
+38. Type: softlock
+   Timestamp: 1761409157.1235218
+   Details: Agent appears to be stuck in location
+
+39. Type: softlock
+   Timestamp: 1761409157.2239995
+   Details: Agent appears to be stuck in location
+
+40. Type: softlock
+   Timestamp: 1761409157.3244016
+   Details: Agent appears to be stuck in location
+
+41. Type: softlock
+   Timestamp: 1761409157.425009
+   Details: Agent appears to be stuck in location
+
+42. Type: softlock
+   Timestamp: 1761409157.5257082
+   Details: Agent appears to be stuck in location
+
+43. Type: softlock
+   Timestamp: 1761409157.6260555
+   Details: Agent appears to be stuck in location
+
+44. Type: softlock
+   Timestamp: 1761409157.7267194
+   Details: Agent appears to be stuck in location
+
+45. Type: softlock
+   Timestamp: 1761409157.8276742
+   Details: Agent appears to be stuck in location
+
+46. Type: softlock
+   Timestamp: 1761409157.927852
+   Details: Agent appears to be stuck in location
+
+47. Type: softlock
+   Timestamp: 1761409158.0307095
+   Details: Agent appears to be stuck in location
+
+48. Type: softlock
+   Timestamp: 1761409158.1309571
+   Details: Agent appears to be stuck in location
+
+49. Type: softlock
+   Timestamp: 1761409158.23116
+   Details: Agent appears to be stuck in location
+
+50. Type: softlock
+   Timestamp: 1761409158.3313246
+   Details: Agent appears to be stuck in location
+
+51. Type: softlock
+   Timestamp: 1761409158.4315295
+   Details: Agent appears to be stuck in location
+
+52. Type: softlock
+   Timestamp: 1761409158.531772
+   Details: Agent appears to be stuck in location
+
+53. Type: softlock
+   Timestamp: 1761409158.632093
+   Details: Agent appears to be stuck in location
+
+54. Type: softlock
+   Timestamp: 1761409158.732367
+   Details: Agent appears to be stuck in location
+
+55. Type: softlock
+   Timestamp: 1761409158.8327327
+   Details: Agent appears to be stuck in location
+
+56. Type: softlock
+   Timestamp: 1761409158.9330103
+   Details: Agent appears to be stuck in location
+
+57. Type: softlock
+   Timestamp: 1761409159.0332155
+   Details: Agent appears to be stuck in location
+
+58. Type: softlock
+   Timestamp: 1761409159.133392
+   Details: Agent appears to be stuck in location
+
+59. Type: softlock
+   Timestamp: 1761409159.23373
+   Details: Agent appears to be stuck in location
+
+60. Type: softlock
+   Timestamp: 1761409159.3339624
+   Details: Agent appears to be stuck in location
+
+61. Type: softlock
+   Timestamp: 1761409159.4343622
+   Details: Agent appears to be stuck in location
+
+62. Type: softlock
+   Timestamp: 1761409159.5347288
+   Details: Agent appears to be stuck in location
+
+63. Type: softlock
+   Timestamp: 1761409159.6356297
+   Details: Agent appears to be stuck in location
+
+64. Type: softlock
+   Timestamp: 1761409159.7360718
+   Details: Agent appears to be stuck in location
+
+65. Type: softlock
+   Timestamp: 1761409159.8363326
+   Details: Agent appears to be stuck in location
+
+66. Type: softlock
+   Timestamp: 1761409159.938036
+   Details: Agent appears to be stuck in location
+
+67. Type: softlock
+   Timestamp: 1761409160.0382748
+   Details: Agent appears to be stuck in location
+
+68. Type: softlock
+   Timestamp: 1761409160.1385307
+   Details: Agent appears to be stuck in location
+
+69. Type: softlock
+   Timestamp: 1761409160.2389045
+   Details: Agent appears to be stuck in location
+
+70. Type: softlock
+   Timestamp: 1761409160.3405154
+   Details: Agent appears to be stuck in location
+
+71. Type: softlock
+   Timestamp: 1761409160.440715
+   Details: Agent appears to be stuck in location
+
+72. Type: softlock
+   Timestamp: 1761409160.5414865
+   Details: Agent appears to be stuck in location
+
+73. Type: softlock
+   Timestamp: 1761409160.6426263
+   Details: Agent appears to be stuck in location
+
+74. Type: softlock
+   Timestamp: 1761409160.743311
+   Details: Agent appears to be stuck in location
+
+75. Type: softlock
+   Timestamp: 1761409160.844021
+   Details: Agent appears to be stuck in location
+
+76. Type: softlock
+   Timestamp: 1761409160.9452336
+   Details: Agent appears to be stuck in location
+
+77. Type: softlock
+   Timestamp: 1761409161.0456376
+   Details: Agent appears to be stuck in location
+
+78. Type: softlock
+   Timestamp: 1761409161.1459382
+   Details: Agent appears to be stuck in location
+
+79. Type: softlock
+   Timestamp: 1761409161.2460985
+   Details: Agent appears to be stuck in location
+
+80. Type: softlock
+   Timestamp: 1761409161.3462594
+   Details: Agent appears to be stuck in location
+
+81. Type: softlock
+   Timestamp: 1761409161.4468997
+   Details: Agent appears to be stuck in location
+
+82. Type: softlock
+   Timestamp: 1761409161.5470817
+   Details: Agent appears to be stuck in location
+
+83. Type: softlock
+   Timestamp: 1761409161.647984
+   Details: Agent appears to be stuck in location
+
+84. Type: softlock
+   Timestamp: 1761409161.7485578
+   Details: Agent appears to be stuck in location
+
+85. Type: softlock
+   Timestamp: 1761409161.849904
+   Details: Agent appears to be stuck in location
+
+86. Type: softlock
+   Timestamp: 1761409161.9503453
+   Details: Agent appears to be stuck in location
+
+87. Type: softlock
+   Timestamp: 1761409162.0506744
+   Details: Agent appears to be stuck in location
+
+88. Type: softlock
+   Timestamp: 1761409162.1510236
+   Details: Agent appears to be stuck in location
+
+89. Type: softlock
+   Timestamp: 1761409162.2513392
+   Details: Agent appears to be stuck in location
+
+90. Type: softlock
+   Timestamp: 1761409162.351601
+   Details: Agent appears to be stuck in location
+
+91. Type: softlock
+   Timestamp: 1761409162.4528701
+   Details: Agent appears to be stuck in location
+
+92. Type: softlock
+   Timestamp: 1761409162.5532284
+   Details: Agent appears to be stuck in location
+
+93. Type: softlock
+   Timestamp: 1761409162.6534925
+   Details: Agent appears to be stuck in location
+
+94. Type: softlock
+   Timestamp: 1761409162.7537823
+   Details: Agent appears to be stuck in location
+
+95. Type: softlock
+   Timestamp: 1761409162.854203
+   Details: Agent appears to be stuck in location
+
+96. Type: softlock
+   Timestamp: 1761409162.954711
+   Details: Agent appears to be stuck in location
+
+97. Type: softlock
+   Timestamp: 1761409163.0549932
+   Details: Agent appears to be stuck in location
+
+98. Type: softlock
+   Timestamp: 1761409163.1553872
+   Details: Agent appears to be stuck in location
+
+99. Type: softlock
+   Timestamp: 1761409163.2559645
+   Details: Agent appears to be stuck in location
+
+100. Type: softlock
+   Timestamp: 1761409163.3565989
+   Details: Agent appears to be stuck in location
+
+101. Type: softlock
+   Timestamp: 1761409163.4570017
+   Details: Agent appears to be stuck in location
+
+102. Type: softlock
+   Timestamp: 1761409163.5580344
+   Details: Agent appears to be stuck in location
+
+103. Type: softlock
+   Timestamp: 1761409163.6582904
+   Details: Agent appears to be stuck in location
+
+104. Type: softlock
+   Timestamp: 1761409163.7587645
+   Details: Agent appears to be stuck in location
+
+105. Type: softlock
+   Timestamp: 1761409163.8590844
+   Details: Agent appears to be stuck in location
+
+106. Type: softlock
+   Timestamp: 1761409163.9596524
+   Details: Agent appears to be stuck in location
+
+107. Type: softlock
+   Timestamp: 1761409164.0600753
+   Details: Agent appears to be stuck in location
+
+108. Type: softlock
+   Timestamp: 1761409164.1603847
+   Details: Agent appears to be stuck in location
+
+109. Type: softlock
+   Timestamp: 1761409164.2610664
+   Details: Agent appears to be stuck in location
+
+110. Type: softlock
+   Timestamp: 1761409164.361399
+   Details: Agent appears to be stuck in location
+
+111. Type: softlock
+   Timestamp: 1761409164.4618506
+   Details: Agent appears to be stuck in location
+
+112. Type: softlock
+   Timestamp: 1761409164.5622635
+   Details: Agent appears to be stuck in location
+
+113. Type: softlock
+   Timestamp: 1761409164.6628613
+   Details: Agent appears to be stuck in location
+
+114. Type: softlock
+   Timestamp: 1761409164.7638178
+   Details: Agent appears to be stuck in location
+
+115. Type: softlock
+   Timestamp: 1761409164.8643482
+   Details: Agent appears to be stuck in location
+
+116. Type: softlock
+   Timestamp: 1761409164.965029
+   Details: Agent appears to be stuck in location
+
+117. Type: softlock
+   Timestamp: 1761409165.0656855
+   Details: Agent appears to be stuck in location
+
+118. Type: softlock
+   Timestamp: 1761409165.166784
+   Details: Agent appears to be stuck in location
+
+119. Type: softlock
+   Timestamp: 1761409165.2672298
+   Details: Agent appears to be stuck in location
+
+120. Type: softlock
+   Timestamp: 1761409165.3678727
+   Details: Agent appears to be stuck in location
+
+121. Type: softlock
+   Timestamp: 1761409165.468082
+   Details: Agent appears to be stuck in location
+
+122. Type: softlock
+   Timestamp: 1761409165.5690634
+   Details: Agent appears to be stuck in location
+
+123. Type: softlock
+   Timestamp: 1761409165.6695824
+   Details: Agent appears to be stuck in location
+
+124. Type: softlock
+   Timestamp: 1761409165.7701716
+   Details: Agent appears to be stuck in location
+
+125. Type: softlock
+   Timestamp: 1761409165.8707106
+   Details: Agent appears to be stuck in location
+
+126. Type: softlock
+   Timestamp: 1761409165.97107
+   Details: Agent appears to be stuck in location
+
+127. Type: softlock
+   Timestamp: 1761409166.0716732
+   Details: Agent appears to be stuck in location
+
+128. Type: softlock
+   Timestamp: 1761409166.1719878
+   Details: Agent appears to be stuck in location
+
+129. Type: softlock
+   Timestamp: 1761409166.273338
+   Details: Agent appears to be stuck in location
+
+130. Type: softlock
+   Timestamp: 1761409166.3737931
+   Details: Agent appears to be stuck in location
+
+131. Type: softlock
+   Timestamp: 1761409166.4745154
+   Details: Agent appears to be stuck in location
+
+132. Type: softlock
+   Timestamp: 1761409166.5753613
+   Details: Agent appears to be stuck in location
+
+133. Type: softlock
+   Timestamp: 1761409166.6760669
+   Details: Agent appears to be stuck in location
+
+134. Type: softlock
+   Timestamp: 1761409166.7782285
+   Details: Agent appears to be stuck in location
+
+135. Type: softlock
+   Timestamp: 1761409166.8792572
+   Details: Agent appears to be stuck in location
+
+136. Type: softlock
+   Timestamp: 1761409166.9794
+   Details: Agent appears to be stuck in location
+
+137. Type: softlock
+   Timestamp: 1761409167.0795934
+   Details: Agent appears to be stuck in location
+
+138. Type: softlock
+   Timestamp: 1761409167.1803033
+   Details: Agent appears to be stuck in location
+
+139. Type: softlock
+   Timestamp: 1761409167.2809021
+   Details: Agent appears to be stuck in location
+
+140. Type: softlock
+   Timestamp: 1761409167.3818402
+   Details: Agent appears to be stuck in location
+
+141. Type: softlock
+   Timestamp: 1761409167.4824677
+   Details: Agent appears to be stuck in location
+
+142. Type: softlock
+   Timestamp: 1761409167.5827565
+   Details: Agent appears to be stuck in location
+
+143. Type: softlock
+   Timestamp: 1761409167.6831586
+   Details: Agent appears to be stuck in location
+
+144. Type: softlock
+   Timestamp: 1761409167.7838771
+   Details: Agent appears to be stuck in location
+
+145. Type: softlock
+   Timestamp: 1761409167.884221
+   Details: Agent appears to be stuck in location
+
+146. Type: softlock
+   Timestamp: 1761409167.9853387
+   Details: Agent appears to be stuck in location
+
+147. Type: softlock
+   Timestamp: 1761409168.08602
+   Details: Agent appears to be stuck in location
+
+148. Type: softlock
+   Timestamp: 1761409168.186785
+   Details: Agent appears to be stuck in location
+
+149. Type: softlock
+   Timestamp: 1761409168.2872927
+   Details: Agent appears to be stuck in location
+
+150. Type: softlock
+   Timestamp: 1761409168.387521
+   Details: Agent appears to be stuck in location
+
+151. Type: softlock
+   Timestamp: 1761409168.4876885
+   Details: Agent appears to be stuck in location
+
+152. Type: softlock
+   Timestamp: 1761409168.5878582
+   Details: Agent appears to be stuck in location
+
+153. Type: softlock
+   Timestamp: 1761409168.6892169
+   Details: Agent appears to be stuck in location
+
+154. Type: softlock
+   Timestamp: 1761409168.790041
+   Details: Agent appears to be stuck in location
+
+155. Type: softlock
+   Timestamp: 1761409168.892128
+   Details: Agent appears to be stuck in location
+
+156. Type: softlock
+   Timestamp: 1761409168.9923873
+   Details: Agent appears to be stuck in location
+
+157. Type: softlock
+   Timestamp: 1761409169.0928357
+   Details: Agent appears to be stuck in location
+
+158. Type: softlock
+   Timestamp: 1761409169.1933382
+   Details: Agent appears to be stuck in location
+
+159. Type: softlock
+   Timestamp: 1761409169.2936969
+   Details: Agent appears to be stuck in location
+
+160. Type: softlock
+   Timestamp: 1761409169.3938935
+   Details: Agent appears to be stuck in location
+
+161. Type: softlock
+   Timestamp: 1761409169.4941697
+   Details: Agent appears to be stuck in location
+
+162. Type: softlock
+   Timestamp: 1761409169.5944219
+   Details: Agent appears to be stuck in location
+
+163. Type: softlock
+   Timestamp: 1761409169.6947067
+   Details: Agent appears to be stuck in location
+
+164. Type: softlock
+   Timestamp: 1761409169.7950945
+   Details: Agent appears to be stuck in location
+
+165. Type: softlock
+   Timestamp: 1761409169.8963695
+   Details: Agent appears to be stuck in location
+
+166. Type: softlock
+   Timestamp: 1761409169.9978926
+   Details: Agent appears to be stuck in location
+
+167. Type: softlock
+   Timestamp: 1761409170.0985212
+   Details: Agent appears to be stuck in location
+
+168. Type: softlock
+   Timestamp: 1761409170.1988895
+   Details: Agent appears to be stuck in location
+
+169. Type: softlock
+   Timestamp: 1761409170.2993252
+   Details: Agent appears to be stuck in location
+
+170. Type: softlock
+   Timestamp: 1761409170.399648
+   Details: Agent appears to be stuck in location
+
+171. Type: softlock
+   Timestamp: 1761409170.5000453
+   Details: Agent appears to be stuck in location
+
+172. Type: softlock
+   Timestamp: 1761409170.6004004
+   Details: Agent appears to be stuck in location
+
+173. Type: softlock
+   Timestamp: 1761409170.7006345
+   Details: Agent appears to be stuck in location
+
+174. Type: softlock
+   Timestamp: 1761409170.8008335
+   Details: Agent appears to be stuck in location
+
+175. Type: softlock
+   Timestamp: 1761409170.9010186
+   Details: Agent appears to be stuck in location
+
+176. Type: softlock
+   Timestamp: 1761409171.0013328
+   Details: Agent appears to be stuck in location
+
+177. Type: softlock
+   Timestamp: 1761409171.1020756
+   Details: Agent appears to be stuck in location
+
+178. Type: softlock
+   Timestamp: 1761409171.2025867
+   Details: Agent appears to be stuck in location
+
+179. Type: softlock
+   Timestamp: 1761409171.3031502
+   Details: Agent appears to be stuck in location
+
+180. Type: softlock
+   Timestamp: 1761409171.403946
+   Details: Agent appears to be stuck in location
+
+181. Type: softlock
+   Timestamp: 1761409171.5047388
+   Details: Agent appears to be stuck in location
+
+182. Type: softlock
+   Timestamp: 1761409171.6051323
+   Details: Agent appears to be stuck in location
+
+183. Type: softlock
+   Timestamp: 1761409171.7068913
+   Details: Agent appears to be stuck in location
+
+184. Type: softlock
+   Timestamp: 1761409171.8076184
+   Details: Agent appears to be stuck in location
+
+185. Type: softlock
+   Timestamp: 1761409171.9197664
+   Details: Agent appears to be stuck in location
+
+186. Type: softlock
+   Timestamp: 1761409172.020787
+   Details: Agent appears to be stuck in location
+
+187. Type: softlock
+   Timestamp: 1761409172.121234
+   Details: Agent appears to be stuck in location
+
+188. Type: softlock
+   Timestamp: 1761409172.2219641
+   Details: Agent appears to be stuck in location
+
+189. Type: softlock
+   Timestamp: 1761409172.3233824
+   Details: Agent appears to be stuck in location
+
+190. Type: softlock
+   Timestamp: 1761409172.424603
+   Details: Agent appears to be stuck in location
+
+191. Type: softlock
+   Timestamp: 1761409153.407019
+   Details: Agent appears to be stuck in location
+
+192. Type: softlock
+   Timestamp: 1761409153.5073242
+   Details: Agent appears to be stuck in location
+
+193. Type: softlock
+   Timestamp: 1761409153.6076798
+   Details: Agent appears to be stuck in location
+
+194. Type: softlock
+   Timestamp: 1761409153.7079954
+   Details: Agent appears to be stuck in location
+
+195. Type: softlock
+   Timestamp: 1761409153.8083248
+   Details: Agent appears to be stuck in location
+
+196. Type: softlock
+   Timestamp: 1761409153.908721
+   Details: Agent appears to be stuck in location
+
+197. Type: softlock
+   Timestamp: 1761409154.0089214
+   Details: Agent appears to be stuck in location
+
+198. Type: softlock
+   Timestamp: 1761409154.1091683
+   Details: Agent appears to be stuck in location
+
+199. Type: softlock
+   Timestamp: 1761409154.209588
+   Details: Agent appears to be stuck in location
+
+200. Type: softlock
+   Timestamp: 1761409154.3101847
+   Details: Agent appears to be stuck in location
+
+201. Type: softlock
+   Timestamp: 1761409154.4108126
+   Details: Agent appears to be stuck in location
+
+202. Type: softlock
+   Timestamp: 1761409154.5111203
+   Details: Agent appears to be stuck in location
+
+203. Type: softlock
+   Timestamp: 1761409154.6114209
+   Details: Agent appears to be stuck in location
+
+204. Type: softlock
+   Timestamp: 1761409154.7118778
+   Details: Agent appears to be stuck in location
+
+205. Type: softlock
+   Timestamp: 1761409154.8125124
+   Details: Agent appears to be stuck in location
+
+206. Type: softlock
+   Timestamp: 1761409154.913307
+   Details: Agent appears to be stuck in location
+
+207. Type: softlock
+   Timestamp: 1761409155.0135229
+   Details: Agent appears to be stuck in location
+
+208. Type: softlock
+   Timestamp: 1761409155.113822
+   Details: Agent appears to be stuck in location
+
+209. Type: softlock
+   Timestamp: 1761409155.2142851
+   Details: Agent appears to be stuck in location
+
+210. Type: softlock
+   Timestamp: 1761409155.3144279
+   Details: Agent appears to be stuck in location
+
+211. Type: softlock
+   Timestamp: 1761409155.4147615
+   Details: Agent appears to be stuck in location
+
+212. Type: softlock
+   Timestamp: 1761409155.515142
+   Details: Agent appears to be stuck in location
+
+213. Type: softlock
+   Timestamp: 1761409155.615598
+   Details: Agent appears to be stuck in location
+
+214. Type: softlock
+   Timestamp: 1761409155.7158706
+   Details: Agent appears to be stuck in location
+
+215. Type: softlock
+   Timestamp: 1761409155.8161397
+   Details: Agent appears to be stuck in location
+
+216. Type: softlock
+   Timestamp: 1761409155.916571
+   Details: Agent appears to be stuck in location
+
+217. Type: softlock
+   Timestamp: 1761409156.0169122
+   Details: Agent appears to be stuck in location
+
+218. Type: softlock
+   Timestamp: 1761409156.1172776
+   Details: Agent appears to be stuck in location
+
+219. Type: softlock
+   Timestamp: 1761409156.2190142
+   Details: Agent appears to be stuck in location
+
+220. Type: softlock
+   Timestamp: 1761409156.319266
+   Details: Agent appears to be stuck in location
+
+221. Type: softlock
+   Timestamp: 1761409156.4212613
+   Details: Agent appears to be stuck in location
+
+222. Type: softlock
+   Timestamp: 1761409156.5214965
+   Details: Agent appears to be stuck in location
+
+223. Type: softlock
+   Timestamp: 1761409156.6217225
+   Details: Agent appears to be stuck in location
+
+224. Type: softlock
+   Timestamp: 1761409156.7219996
+   Details: Agent appears to be stuck in location
+
+225. Type: softlock
+   Timestamp: 1761409156.822289
+   Details: Agent appears to be stuck in location
+
+226. Type: softlock
+   Timestamp: 1761409156.9225118
+   Details: Agent appears to be stuck in location
+
+227. Type: softlock
+   Timestamp: 1761409157.0229287
+   Details: Agent appears to be stuck in location
+
+228. Type: softlock
+   Timestamp: 1761409157.1234212
+   Details: Agent appears to be stuck in location
+
+229. Type: softlock
+   Timestamp: 1761409157.2241561
+   Details: Agent appears to be stuck in location
+
+230. Type: softlock
+   Timestamp: 1761409157.3245032
+   Details: Agent appears to be stuck in location
+
+231. Type: softlock
+   Timestamp: 1761409157.425311
+   Details: Agent appears to be stuck in location
+
+232. Type: softlock
+   Timestamp: 1761409157.525877
+   Details: Agent appears to be stuck in location
+
+233. Type: softlock
+   Timestamp: 1761409157.626225
+   Details: Agent appears to be stuck in location
+
+234. Type: softlock
+   Timestamp: 1761409157.7266188
+   Details: Agent appears to be stuck in location
+
+235. Type: softlock
+   Timestamp: 1761409157.8274784
+   Details: Agent appears to be stuck in location
+
+236. Type: softlock
+   Timestamp: 1761409157.9276996
+   Details: Agent appears to be stuck in location
+
+237. Type: softlock
+   Timestamp: 1761409158.0278964
+   Details: Agent appears to be stuck in location
+
+238. Type: softlock
+   Timestamp: 1761409158.1282556
+   Details: Agent appears to be stuck in location
+
+239. Type: softlock
+   Timestamp: 1761409158.2285132
+   Details: Agent appears to be stuck in location
+
+240. Type: softlock
+   Timestamp: 1761409158.3288121
+   Details: Agent appears to be stuck in location
+
+241. Type: softlock
+   Timestamp: 1761409158.4291518
+   Details: Agent appears to be stuck in location
+
+242. Type: softlock
+   Timestamp: 1761409158.52968
+   Details: Agent appears to be stuck in location
+
+243. Type: softlock
+   Timestamp: 1761409158.6300387
+   Details: Agent appears to be stuck in location
+
+244. Type: softlock
+   Timestamp: 1761409158.730644
+   Details: Agent appears to be stuck in location
+
+245. Type: softlock
+   Timestamp: 1761409158.8314233
+   Details: Agent appears to be stuck in location
+
+246. Type: softlock
+   Timestamp: 1761409158.9319448
+   Details: Agent appears to be stuck in location
+
+247. Type: softlock
+   Timestamp: 1761409159.0322068
+   Details: Agent appears to be stuck in location
+
+248. Type: softlock
+   Timestamp: 1761409159.1325643
+   Details: Agent appears to be stuck in location
+
+249. Type: softlock
+   Timestamp: 1761409159.2335477
+   Details: Agent appears to be stuck in location
+
+250. Type: softlock
+   Timestamp: 1761409159.3340158
+   Details: Agent appears to be stuck in location
+
+251. Type: softlock
+   Timestamp: 1761409159.434475
+   Details: Agent appears to be stuck in location
+
+252. Type: softlock
+   Timestamp: 1761409159.5349207
+   Details: Agent appears to be stuck in location
+
+253. Type: softlock
+   Timestamp: 1761409159.6361804
+   Details: Agent appears to be stuck in location
+
+254. Type: softlock
+   Timestamp: 1761409159.7370589
+   Details: Agent appears to be stuck in location
+
+255. Type: softlock
+   Timestamp: 1761409159.8372004
+   Details: Agent appears to be stuck in location
+
+256. Type: softlock
+   Timestamp: 1761409159.9382617
+   Details: Agent appears to be stuck in location
+
+257. Type: softlock
+   Timestamp: 1761409160.0385287
+   Details: Agent appears to be stuck in location
+
+258. Type: softlock
+   Timestamp: 1761409160.1389928
+   Details: Agent appears to be stuck in location
+
+259. Type: softlock
+   Timestamp: 1761409160.239257
+   Details: Agent appears to be stuck in location
+
+260. Type: softlock
+   Timestamp: 1761409160.340102
+   Details: Agent appears to be stuck in location
+
+261. Type: softlock
+   Timestamp: 1761409160.4404943
+   Details: Agent appears to be stuck in location
+
+262. Type: softlock
+   Timestamp: 1761409160.541254
+   Details: Agent appears to be stuck in location
+
+263. Type: softlock
+   Timestamp: 1761409160.6423647
+   Details: Agent appears to be stuck in location
+
+264. Type: softlock
+   Timestamp: 1761409160.743372
+   Details: Agent appears to be stuck in location
+
+265. Type: softlock
+   Timestamp: 1761409160.8441398
+   Details: Agent appears to be stuck in location
+
+266. Type: softlock
+   Timestamp: 1761409160.9450853
+   Details: Agent appears to be stuck in location
+
+267. Type: softlock
+   Timestamp: 1761409161.0454082
+   Details: Agent appears to be stuck in location
+
+268. Type: softlock
+   Timestamp: 1761409161.1457422
+   Details: Agent appears to be stuck in location
+
+269. Type: softlock
+   Timestamp: 1761409161.2459495
+   Details: Agent appears to be stuck in location
+
+270. Type: softlock
+   Timestamp: 1761409161.3461428
+   Details: Agent appears to be stuck in location
+
+271. Type: softlock
+   Timestamp: 1761409161.4465544
+   Details: Agent appears to be stuck in location
+
+272. Type: softlock
+   Timestamp: 1761409161.5468438
+   Details: Agent appears to be stuck in location
+
+273. Type: softlock
+   Timestamp: 1761409161.6475759
+   Details: Agent appears to be stuck in location
+
+274. Type: softlock
+   Timestamp: 1761409161.7488883
+   Details: Agent appears to be stuck in location
+
+275. Type: softlock
+   Timestamp: 1761409161.8502529
+   Details: Agent appears to be stuck in location
+
+276. Type: softlock
+   Timestamp: 1761409161.950735
+   Details: Agent appears to be stuck in location
+
+277. Type: softlock
+   Timestamp: 1761409162.0509768
+   Details: Agent appears to be stuck in location
+
+278. Type: softlock
+   Timestamp: 1761409162.1511452
+   Details: Agent appears to be stuck in location
+
+279. Type: softlock
+   Timestamp: 1761409162.251402
+   Details: Agent appears to be stuck in location
+
+280. Type: softlock
+   Timestamp: 1761409162.351654
+   Details: Agent appears to be stuck in location
+
+281. Type: softlock
+   Timestamp: 1761409162.4530926
+   Details: Agent appears to be stuck in location
+
+282. Type: softlock
+   Timestamp: 1761409162.5545325
+   Details: Agent appears to be stuck in location
+
+283. Type: softlock
+   Timestamp: 1761409162.6547756
+   Details: Agent appears to be stuck in location
+
+284. Type: softlock
+   Timestamp: 1761409162.7549987
+   Details: Agent appears to be stuck in location
+
+285. Type: softlock
+   Timestamp: 1761409162.855341
+   Details: Agent appears to be stuck in location
+
+286. Type: softlock
+   Timestamp: 1761409162.9557862
+   Details: Agent appears to be stuck in location
+
+287. Type: softlock
+   Timestamp: 1761409163.0559433
+   Details: Agent appears to be stuck in location
+
+288. Type: softlock
+   Timestamp: 1761409163.1561594
+   Details: Agent appears to be stuck in location
+
+289. Type: softlock
+   Timestamp: 1761409163.2571828
+   Details: Agent appears to be stuck in location
+
+290. Type: softlock
+   Timestamp: 1761409163.3581872
+   Details: Agent appears to be stuck in location
+
+291. Type: softlock
+   Timestamp: 1761409163.4586709
+   Details: Agent appears to be stuck in location
+
+292. Type: softlock
+   Timestamp: 1761409163.5590365
+   Details: Agent appears to be stuck in location
+
+293. Type: softlock
+   Timestamp: 1761409163.6592295
+   Details: Agent appears to be stuck in location
+
+294. Type: softlock
+   Timestamp: 1761409163.7600873
+   Details: Agent appears to be stuck in location
+
+295. Type: softlock
+   Timestamp: 1761409163.8611658
+   Details: Agent appears to be stuck in location
+
+296. Type: softlock
+   Timestamp: 1761409163.9616086
+   Details: Agent appears to be stuck in location
+
+297. Type: softlock
+   Timestamp: 1761409164.061961
+   Details: Agent appears to be stuck in location
+
+298. Type: softlock
+   Timestamp: 1761409164.162931
+   Details: Agent appears to be stuck in location
+
+299. Type: softlock
+   Timestamp: 1761409164.2631552
+   Details: Agent appears to be stuck in location
+
+300. Type: softlock
+   Timestamp: 1761409164.3634882
+   Details: Agent appears to be stuck in location
+
+301. Type: softlock
+   Timestamp: 1761409164.4637895
+   Details: Agent appears to be stuck in location
+
+302. Type: softlock
+   Timestamp: 1761409164.5641596
+   Details: Agent appears to be stuck in location
+
+303. Type: softlock
+   Timestamp: 1761409164.6644955
+   Details: Agent appears to be stuck in location
+
+304. Type: softlock
+   Timestamp: 1761409164.7647696
+   Details: Agent appears to be stuck in location
+
+305. Type: softlock
+   Timestamp: 1761409164.8649762
+   Details: Agent appears to be stuck in location
+
+306. Type: softlock
+   Timestamp: 1761409164.9654267
+   Details: Agent appears to be stuck in location
+
+307. Type: softlock
+   Timestamp: 1761409165.0658996
+   Details: Agent appears to be stuck in location
+
+308. Type: softlock
+   Timestamp: 1761409165.1664639
+   Details: Agent appears to be stuck in location
+
+309. Type: softlock
+   Timestamp: 1761409165.266761
+   Details: Agent appears to be stuck in location
+
+310. Type: softlock
+   Timestamp: 1761409165.367659
+   Details: Agent appears to be stuck in location
+
+311. Type: softlock
+   Timestamp: 1761409165.468009
+   Details: Agent appears to be stuck in location
+
+312. Type: softlock
+   Timestamp: 1761409165.5687203
+   Details: Agent appears to be stuck in location
+
+313. Type: softlock
+   Timestamp: 1761409165.6691632
+   Details: Agent appears to be stuck in location
+
+314. Type: softlock
+   Timestamp: 1761409165.7699184
+   Details: Agent appears to be stuck in location
+
+315. Type: softlock
+   Timestamp: 1761409165.8709993
+   Details: Agent appears to be stuck in location
+
+316. Type: softlock
+   Timestamp: 1761409165.9712698
+   Details: Agent appears to be stuck in location
+
+317. Type: softlock
+   Timestamp: 1761409166.071942
+   Details: Agent appears to be stuck in location
+
+318. Type: softlock
+   Timestamp: 1761409166.1721785
+   Details: Agent appears to be stuck in location
+
+319. Type: softlock
+   Timestamp: 1761409166.2738693
+   Details: Agent appears to be stuck in location
+
+320. Type: softlock
+   Timestamp: 1761409166.3744526
+   Details: Agent appears to be stuck in location
+
+321. Type: softlock
+   Timestamp: 1761409166.4747136
+   Details: Agent appears to be stuck in location
+
+322. Type: softlock
+   Timestamp: 1761409166.5754247
+   Details: Agent appears to be stuck in location
+
+323. Type: softlock
+   Timestamp: 1761409166.6764238
+   Details: Agent appears to be stuck in location
+
+324. Type: softlock
+   Timestamp: 1761409166.7780535
+   Details: Agent appears to be stuck in location
+
+325. Type: softlock
+   Timestamp: 1761409166.8789017
+   Details: Agent appears to be stuck in location
+
+326. Type: softlock
+   Timestamp: 1761409166.9792554
+   Details: Agent appears to be stuck in location
+
+327. Type: softlock
+   Timestamp: 1761409167.0796711
+   Details: Agent appears to be stuck in location
+
+328. Type: softlock
+   Timestamp: 1761409167.1801586
+   Details: Agent appears to be stuck in location
+
+329. Type: softlock
+   Timestamp: 1761409167.281723
+   Details: Agent appears to be stuck in location
+
+330. Type: softlock
+   Timestamp: 1761409167.3821373
+   Details: Agent appears to be stuck in location
+
+331. Type: softlock
+   Timestamp: 1761409167.4827335
+   Details: Agent appears to be stuck in location
+
+332. Type: softlock
+   Timestamp: 1761409167.5830011
+   Details: Agent appears to be stuck in location
+
+333. Type: softlock
+   Timestamp: 1761409167.6836562
+   Details: Agent appears to be stuck in location
+
+334. Type: softlock
+   Timestamp: 1761409167.7847965
+   Details: Agent appears to be stuck in location
+
+335. Type: softlock
+   Timestamp: 1761409167.8849995
+   Details: Agent appears to be stuck in location
+
+336. Type: softlock
+   Timestamp: 1761409167.9852064
+   Details: Agent appears to be stuck in location
+
+337. Type: softlock
+   Timestamp: 1761409168.085578
+   Details: Agent appears to be stuck in location
+
+338. Type: softlock
+   Timestamp: 1761409168.1864977
+   Details: Agent appears to be stuck in location
+
+339. Type: softlock
+   Timestamp: 1761409168.2868567
+   Details: Agent appears to be stuck in location
+
+340. Type: softlock
+   Timestamp: 1761409168.3870432
+   Details: Agent appears to be stuck in location
+
+341. Type: softlock
+   Timestamp: 1761409168.4873319
+   Details: Agent appears to be stuck in location
+
+342. Type: softlock
+   Timestamp: 1761409168.5876863
+   Details: Agent appears to be stuck in location
+
+343. Type: softlock
+   Timestamp: 1761409168.6887648
+   Details: Agent appears to be stuck in location
+
+344. Type: softlock
+   Timestamp: 1761409168.789424
+   Details: Agent appears to be stuck in location
+
+345. Type: softlock
+   Timestamp: 1761409168.8902006
+   Details: Agent appears to be stuck in location
+
+346. Type: softlock
+   Timestamp: 1761409168.991397
+   Details: Agent appears to be stuck in location
+
+347. Type: softlock
+   Timestamp: 1761409169.0918887
+   Details: Agent appears to be stuck in location
+
+348. Type: softlock
+   Timestamp: 1761409169.1922371
+   Details: Agent appears to be stuck in location
+
+349. Type: softlock
+   Timestamp: 1761409169.2927744
+   Details: Agent appears to be stuck in location
+
+350. Type: softlock
+   Timestamp: 1761409169.3930917
+   Details: Agent appears to be stuck in location
+
+351. Type: softlock
+   Timestamp: 1761409169.4939702
+   Details: Agent appears to be stuck in location
+
+352. Type: softlock
+   Timestamp: 1761409169.5942907
+   Details: Agent appears to be stuck in location
+
+353. Type: softlock
+   Timestamp: 1761409169.6946428
+   Details: Agent appears to be stuck in location
+
+354. Type: softlock
+   Timestamp: 1761409169.794982
+   Details: Agent appears to be stuck in location
+
+355. Type: softlock
+   Timestamp: 1761409169.8963
+   Details: Agent appears to be stuck in location
+
+356. Type: softlock
+   Timestamp: 1761409169.9977965
+   Details: Agent appears to be stuck in location
+
+357. Type: softlock
+   Timestamp: 1761409170.09842
+   Details: Agent appears to be stuck in location
+
+358. Type: softlock
+   Timestamp: 1761409170.199314
+   Details: Agent appears to be stuck in location
+
+359. Type: softlock
+   Timestamp: 1761409170.2996757
+   Details: Agent appears to be stuck in location
+
+360. Type: softlock
+   Timestamp: 1761409170.4000902
+   Details: Agent appears to be stuck in location
+
+361. Type: softlock
+   Timestamp: 1761409170.5004036
+   Details: Agent appears to be stuck in location
+
+362. Type: softlock
+   Timestamp: 1761409170.6006467
+   Details: Agent appears to be stuck in location
+
+363. Type: softlock
+   Timestamp: 1761409170.7008996
+   Details: Agent appears to be stuck in location
+
+364. Type: softlock
+   Timestamp: 1761409170.801104
+   Details: Agent appears to be stuck in location
+
+365. Type: softlock
+   Timestamp: 1761409170.901252
+   Details: Agent appears to be stuck in location
+
+366. Type: softlock
+   Timestamp: 1761409171.0025704
+   Details: Agent appears to be stuck in location
+
+367. Type: softlock
+   Timestamp: 1761409171.102745
+   Details: Agent appears to be stuck in location
+
+368. Type: softlock
+   Timestamp: 1761409171.203169
+   Details: Agent appears to be stuck in location
+
+369. Type: softlock
+   Timestamp: 1761409171.3035054
+   Details: Agent appears to be stuck in location
+
+370. Type: softlock
+   Timestamp: 1761409171.4045808
+   Details: Agent appears to be stuck in location
+
+371. Type: softlock
+   Timestamp: 1761409171.5055776
+   Details: Agent appears to be stuck in location
+
+372. Type: softlock
+   Timestamp: 1761409171.6058133
+   Details: Agent appears to be stuck in location
+
+373. Type: softlock
+   Timestamp: 1761409171.7061613
+   Details: Agent appears to be stuck in location
+
+374. Type: softlock
+   Timestamp: 1761409171.8070285
+   Details: Agent appears to be stuck in location
+
+375. Type: softlock
+   Timestamp: 1761409171.9190028
+   Details: Agent appears to be stuck in location
+
+376. Type: softlock
+   Timestamp: 1761409172.0206192
+   Details: Agent appears to be stuck in location
+
+377. Type: softlock
+   Timestamp: 1761409172.1214736
+   Details: Agent appears to be stuck in location
+
+378. Type: softlock
+   Timestamp: 1761409172.2225034
+   Details: Agent appears to be stuck in location
+
+379. Type: softlock
+   Timestamp: 1761409172.3230274
+   Details: Agent appears to be stuck in location
+
+380. Type: softlock
+   Timestamp: 1761409172.424787
+   Details: Agent appears to be stuck in location
+
+381. Type: softlock
+   Timestamp: 1761409153.4081297
+   Details: Agent appears to be stuck in location
+
+382. Type: softlock
+   Timestamp: 1761409153.5089698
+   Details: Agent appears to be stuck in location
+
+383. Type: softlock
+   Timestamp: 1761409153.6092777
+   Details: Agent appears to be stuck in location
+
+384. Type: softlock
+   Timestamp: 1761409153.7097678
+   Details: Agent appears to be stuck in location
+
+385. Type: softlock
+   Timestamp: 1761409153.810063
+   Details: Agent appears to be stuck in location
+
+386. Type: softlock
+   Timestamp: 1761409153.9105623
+   Details: Agent appears to be stuck in location
+
+387. Type: softlock
+   Timestamp: 1761409154.010819
+   Details: Agent appears to be stuck in location
+
+388. Type: softlock
+   Timestamp: 1761409154.1111174
+   Details: Agent appears to be stuck in location
+
+389. Type: softlock
+   Timestamp: 1761409154.2115328
+   Details: Agent appears to be stuck in location
+
+390. Type: softlock
+   Timestamp: 1761409154.3118045
+   Details: Agent appears to be stuck in location
+
+391. Type: softlock
+   Timestamp: 1761409154.4120817
+   Details: Agent appears to be stuck in location
+
+392. Type: softlock
+   Timestamp: 1761409154.5122638
+   Details: Agent appears to be stuck in location
+
+393. Type: softlock
+   Timestamp: 1761409154.6125503
+   Details: Agent appears to be stuck in location
+
+394. Type: softlock
+   Timestamp: 1761409154.7128263
+   Details: Agent appears to be stuck in location
+
+395. Type: softlock
+   Timestamp: 1761409154.8131151
+   Details: Agent appears to be stuck in location
+
+396. Type: softlock
+   Timestamp: 1761409154.9137006
+   Details: Agent appears to be stuck in location
+
+397. Type: softlock
+   Timestamp: 1761409155.0138159
+   Details: Agent appears to be stuck in location
+
+398. Type: softlock
+   Timestamp: 1761409155.1139848
+   Details: Agent appears to be stuck in location
+
+399. Type: softlock
+   Timestamp: 1761409155.2146125
+   Details: Agent appears to be stuck in location
+
+400. Type: softlock
+   Timestamp: 1761409155.3147547
+   Details: Agent appears to be stuck in location
+
+401. Type: softlock
+   Timestamp: 1761409155.4149067
+   Details: Agent appears to be stuck in location
+
+402. Type: softlock
+   Timestamp: 1761409155.515288
+   Details: Agent appears to be stuck in location
+
+403. Type: softlock
+   Timestamp: 1761409155.6157722
+   Details: Agent appears to be stuck in location
+
+404. Type: softlock
+   Timestamp: 1761409155.7160895
+   Details: Agent appears to be stuck in location
+
+405. Type: softlock
+   Timestamp: 1761409155.81687
+   Details: Agent appears to be stuck in location
+
+406. Type: softlock
+   Timestamp: 1761409155.9171982
+   Details: Agent appears to be stuck in location
+
+407. Type: softlock
+   Timestamp: 1761409156.0173607
+   Details: Agent appears to be stuck in location
+
+408. Type: softlock
+   Timestamp: 1761409156.1175344
+   Details: Agent appears to be stuck in location
+
+409. Type: softlock
+   Timestamp: 1761409156.2185419
+   Details: Agent appears to be stuck in location
+
+410. Type: softlock
+   Timestamp: 1761409156.3190513
+   Details: Agent appears to be stuck in location
+
+411. Type: softlock
+   Timestamp: 1761409156.4197087
+   Details: Agent appears to be stuck in location
+
+412. Type: softlock
+   Timestamp: 1761409156.5200531
+   Details: Agent appears to be stuck in location
+
+413. Type: softlock
+   Timestamp: 1761409156.6205704
+   Details: Agent appears to be stuck in location
+
+414. Type: softlock
+   Timestamp: 1761409156.720987
+   Details: Agent appears to be stuck in location
+
+415. Type: softlock
+   Timestamp: 1761409156.8217947
+   Details: Agent appears to be stuck in location
+
+416. Type: softlock
+   Timestamp: 1761409156.9221177
+   Details: Agent appears to be stuck in location
+
+417. Type: softlock
+   Timestamp: 1761409157.0229752
+   Details: Agent appears to be stuck in location
+
+418. Type: softlock
+   Timestamp: 1761409157.1238582
+   Details: Agent appears to be stuck in location
+
+419. Type: softlock
+   Timestamp: 1761409157.2244055
+   Details: Agent appears to be stuck in location
+
+420. Type: softlock
+   Timestamp: 1761409157.3246193
+   Details: Agent appears to be stuck in location
+
+421. Type: softlock
+   Timestamp: 1761409157.4255965
+   Details: Agent appears to be stuck in location
+
+422. Type: softlock
+   Timestamp: 1761409157.5260198
+   Details: Agent appears to be stuck in location
+
+423. Type: softlock
+   Timestamp: 1761409157.626248
+   Details: Agent appears to be stuck in location
+
+424. Type: softlock
+   Timestamp: 1761409157.7265854
+   Details: Agent appears to be stuck in location
+
+425. Type: softlock
+   Timestamp: 1761409157.8271432
+   Details: Agent appears to be stuck in location
+
+426. Type: softlock
+   Timestamp: 1761409157.927431
+   Details: Agent appears to be stuck in location
+
+427. Type: softlock
+   Timestamp: 1761409158.0277328
+   Details: Agent appears to be stuck in location
+
+428. Type: softlock
+   Timestamp: 1761409158.128121
+   Details: Agent appears to be stuck in location
+
+429. Type: softlock
+   Timestamp: 1761409158.2285788
+   Details: Agent appears to be stuck in location
+
+430. Type: softlock
+   Timestamp: 1761409158.328938
+   Details: Agent appears to be stuck in location
+
+431. Type: softlock
+   Timestamp: 1761409158.4292343
+   Details: Agent appears to be stuck in location
+
+432. Type: softlock
+   Timestamp: 1761409158.5295336
+   Details: Agent appears to be stuck in location
+
+433. Type: softlock
+   Timestamp: 1761409158.6302137
+   Details: Agent appears to be stuck in location
+
+434. Type: softlock
+   Timestamp: 1761409158.7309277
+   Details: Agent appears to be stuck in location
+
+435. Type: softlock
+   Timestamp: 1761409158.831337
+   Details: Agent appears to be stuck in location
+
+436. Type: softlock
+   Timestamp: 1761409158.93183
+   Details: Agent appears to be stuck in location
+
+437. Type: softlock
+   Timestamp: 1761409159.0324306
+   Details: Agent appears to be stuck in location
+
+438. Type: softlock
+   Timestamp: 1761409159.1328826
+   Details: Agent appears to be stuck in location
+
+439. Type: softlock
+   Timestamp: 1761409159.233288
+   Details: Agent appears to be stuck in location
+
+440. Type: softlock
+   Timestamp: 1761409159.3340595
+   Details: Agent appears to be stuck in location
+
+441. Type: softlock
+   Timestamp: 1761409159.4346778
+   Details: Agent appears to be stuck in location
+
+442. Type: softlock
+   Timestamp: 1761409159.5350168
+   Details: Agent appears to be stuck in location
+
+443. Type: softlock
+   Timestamp: 1761409159.636225
+   Details: Agent appears to be stuck in location
+
+444. Type: softlock
+   Timestamp: 1761409159.736699
+   Details: Agent appears to be stuck in location
+
+445. Type: softlock
+   Timestamp: 1761409159.8369076
+   Details: Agent appears to be stuck in location
+
+446. Type: softlock
+   Timestamp: 1761409159.9375415
+   Details: Agent appears to be stuck in location
+
+447. Type: softlock
+   Timestamp: 1761409160.0378463
+   Details: Agent appears to be stuck in location
+
+448. Type: softlock
+   Timestamp: 1761409160.1382582
+   Details: Agent appears to be stuck in location
+
+449. Type: softlock
+   Timestamp: 1761409160.2393014
+   Details: Agent appears to be stuck in location
+
+450. Type: softlock
+   Timestamp: 1761409160.3404047
+   Details: Agent appears to be stuck in location
+
+451. Type: softlock
+   Timestamp: 1761409160.4408276
+   Details: Agent appears to be stuck in location
+
+452. Type: softlock
+   Timestamp: 1761409160.5415332
+   Details: Agent appears to be stuck in location
+
+453. Type: softlock
+   Timestamp: 1761409160.642122
+   Details: Agent appears to be stuck in location
+
+454. Type: softlock
+   Timestamp: 1761409160.7428718
+   Details: Agent appears to be stuck in location
+
+455. Type: softlock
+   Timestamp: 1761409160.8433433
+   Details: Agent appears to be stuck in location
+
+456. Type: softlock
+   Timestamp: 1761409160.943858
+   Details: Agent appears to be stuck in location
+
+457. Type: softlock
+   Timestamp: 1761409161.044614
+   Details: Agent appears to be stuck in location
+
+458. Type: softlock
+   Timestamp: 1761409161.1448815
+   Details: Agent appears to be stuck in location
+
+459. Type: softlock
+   Timestamp: 1761409161.2452054
+   Details: Agent appears to be stuck in location
+
+460. Type: softlock
+   Timestamp: 1761409161.3454921
+   Details: Agent appears to be stuck in location
+
+461. Type: softlock
+   Timestamp: 1761409161.4458783
+   Details: Agent appears to be stuck in location
+
+462. Type: softlock
+   Timestamp: 1761409161.546644
+   Details: Agent appears to be stuck in location
+
+463. Type: softlock
+   Timestamp: 1761409161.6477926
+   Details: Agent appears to be stuck in location
+
+464. Type: softlock
+   Timestamp: 1761409161.7488236
+   Details: Agent appears to be stuck in location
+
+465. Type: softlock
+   Timestamp: 1761409161.849709
+   Details: Agent appears to be stuck in location
+
+466. Type: softlock
+   Timestamp: 1761409161.950951
+   Details: Agent appears to be stuck in location
+
+467. Type: softlock
+   Timestamp: 1761409162.0511227
+   Details: Agent appears to be stuck in location
+
+468. Type: softlock
+   Timestamp: 1761409162.1513395
+   Details: Agent appears to be stuck in location
+
+469. Type: softlock
+   Timestamp: 1761409162.2516294
+   Details: Agent appears to be stuck in location
+
+470. Type: softlock
+   Timestamp: 1761409162.3517375
+   Details: Agent appears to be stuck in location
+
+471. Type: softlock
+   Timestamp: 1761409162.4529805
+   Details: Agent appears to be stuck in location
+
+472. Type: softlock
+   Timestamp: 1761409162.5546536
+   Details: Agent appears to be stuck in location
+
+473. Type: softlock
+   Timestamp: 1761409162.6549003
+   Details: Agent appears to be stuck in location
+
+474. Type: softlock
+   Timestamp: 1761409162.755119
+   Details: Agent appears to be stuck in location
+
+475. Type: softlock
+   Timestamp: 1761409162.8554635
+   Details: Agent appears to be stuck in location
+
+476. Type: softlock
+   Timestamp: 1761409162.955966
+   Details: Agent appears to be stuck in location
+
+477. Type: softlock
+   Timestamp: 1761409163.056162
+   Details: Agent appears to be stuck in location
+
+478. Type: softlock
+   Timestamp: 1761409163.1563897
+   Details: Agent appears to be stuck in location
+
+479. Type: softlock
+   Timestamp: 1761409163.2574537
+   Details: Agent appears to be stuck in location
+
+480. Type: softlock
+   Timestamp: 1761409163.3579419
+   Details: Agent appears to be stuck in location
+
+481. Type: softlock
+   Timestamp: 1761409163.4583302
+   Details: Agent appears to be stuck in location
+
+482. Type: softlock
+   Timestamp: 1761409163.5587428
+   Details: Agent appears to be stuck in location
+
+483. Type: softlock
+   Timestamp: 1761409163.6589332
+   Details: Agent appears to be stuck in location
+
+484. Type: softlock
+   Timestamp: 1761409163.7594898
+   Details: Agent appears to be stuck in location
+
+485. Type: softlock
+   Timestamp: 1761409163.8597968
+   Details: Agent appears to be stuck in location
+
+486. Type: softlock
+   Timestamp: 1761409163.9602149
+   Details: Agent appears to be stuck in location
+
+487. Type: softlock
+   Timestamp: 1761409164.0607235
+   Details: Agent appears to be stuck in location
+
+488. Type: softlock
+   Timestamp: 1761409164.1609042
+   Details: Agent appears to be stuck in location
+
+489. Type: softlock
+   Timestamp: 1761409164.261517
+   Details: Agent appears to be stuck in location
+
+490. Type: softlock
+   Timestamp: 1761409164.361804
+   Details: Agent appears to be stuck in location
+
+491. Type: softlock
+   Timestamp: 1761409164.4621813
+   Details: Agent appears to be stuck in location
+
+492. Type: softlock
+   Timestamp: 1761409164.5623693
+   Details: Agent appears to be stuck in location
+
+493. Type: softlock
+   Timestamp: 1761409164.663133
+   Details: Agent appears to be stuck in location
+
+494. Type: softlock
+   Timestamp: 1761409164.763701
+   Details: Agent appears to be stuck in location
+
+495. Type: softlock
+   Timestamp: 1761409164.864171
+   Details: Agent appears to be stuck in location
+
+496. Type: softlock
+   Timestamp: 1761409164.9648118
+   Details: Agent appears to be stuck in location
+
+497. Type: softlock
+   Timestamp: 1761409165.0653214
+   Details: Agent appears to be stuck in location
+
+498. Type: softlock
+   Timestamp: 1761409165.166074
+   Details: Agent appears to be stuck in location
+
+499. Type: softlock
+   Timestamp: 1761409165.266815
+   Details: Agent appears to be stuck in location
+
+500. Type: softlock
+   Timestamp: 1761409165.3674712
+   Details: Agent appears to be stuck in location
+
+501. Type: softlock
+   Timestamp: 1761409165.4678776
+   Details: Agent appears to be stuck in location
+
+502. Type: softlock
+   Timestamp: 1761409165.56892
+   Details: Agent appears to be stuck in location
+
+503. Type: softlock
+   Timestamp: 1761409165.669317
+   Details: Agent appears to be stuck in location
+
+504. Type: softlock
+   Timestamp: 1761409165.7696972
+   Details: Agent appears to be stuck in location
+
+505. Type: softlock
+   Timestamp: 1761409165.8708162
+   Details: Agent appears to be stuck in location
+
+506. Type: softlock
+   Timestamp: 1761409165.9713705
+   Details: Agent appears to be stuck in location
+
+507. Type: softlock
+   Timestamp: 1761409166.0722485
+   Details: Agent appears to be stuck in location
+
+508. Type: softlock
+   Timestamp: 1761409166.17245
+   Details: Agent appears to be stuck in location
+
+509. Type: softlock
+   Timestamp: 1761409166.273738
+   Details: Agent appears to be stuck in location
+
+510. Type: softlock
+   Timestamp: 1761409166.374255
+   Details: Agent appears to be stuck in location
+
+511. Type: softlock
+   Timestamp: 1761409166.474652
+   Details: Agent appears to be stuck in location
+
+512. Type: softlock
+   Timestamp: 1761409166.575277
+   Details: Agent appears to be stuck in location
+
+513. Type: softlock
+   Timestamp: 1761409166.6765115
+   Details: Agent appears to be stuck in location
+
+514. Type: softlock
+   Timestamp: 1761409166.777635
+   Details: Agent appears to be stuck in location
+
+515. Type: softlock
+   Timestamp: 1761409166.879196
+   Details: Agent appears to be stuck in location
+
+516. Type: softlock
+   Timestamp: 1761409166.9801836
+   Details: Agent appears to be stuck in location
+
+517. Type: softlock
+   Timestamp: 1761409167.080336
+   Details: Agent appears to be stuck in location
+
+518. Type: softlock
+   Timestamp: 1761409167.1805284
+   Details: Agent appears to be stuck in location
+
+519. Type: softlock
+   Timestamp: 1761409167.2813458
+   Details: Agent appears to be stuck in location
+
+520. Type: softlock
+   Timestamp: 1761409167.3822052
+   Details: Agent appears to be stuck in location
+
+521. Type: softlock
+   Timestamp: 1761409167.483028
+   Details: Agent appears to be stuck in location
+
+522. Type: softlock
+   Timestamp: 1761409167.5831819
+   Details: Agent appears to be stuck in location
+
+523. Type: softlock
+   Timestamp: 1761409167.6838498
+   Details: Agent appears to be stuck in location
+
+524. Type: softlock
+   Timestamp: 1761409167.7843044
+   Details: Agent appears to be stuck in location
+
+525. Type: softlock
+   Timestamp: 1761409167.8845642
+   Details: Agent appears to be stuck in location
+
+526. Type: softlock
+   Timestamp: 1761409167.9849377
+   Details: Agent appears to be stuck in location
+
+527. Type: softlock
+   Timestamp: 1761409168.0852275
+   Details: Agent appears to be stuck in location
+
+528. Type: softlock
+   Timestamp: 1761409168.185938
+   Details: Agent appears to be stuck in location
+
+529. Type: softlock
+   Timestamp: 1761409168.2864969
+   Details: Agent appears to be stuck in location
+
+530. Type: softlock
+   Timestamp: 1761409168.3869498
+   Details: Agent appears to be stuck in location
+
+531. Type: softlock
+   Timestamp: 1761409168.4873075
+   Details: Agent appears to be stuck in location
+
+532. Type: softlock
+   Timestamp: 1761409168.5876315
+   Details: Agent appears to be stuck in location
+
+533. Type: softlock
+   Timestamp: 1761409168.6893103
+   Details: Agent appears to be stuck in location
+
+534. Type: softlock
+   Timestamp: 1761409168.7903059
+   Details: Agent appears to be stuck in location
+
+535. Type: softlock
+   Timestamp: 1761409168.8911502
+   Details: Agent appears to be stuck in location
+
+536. Type: softlock
+   Timestamp: 1761409168.9919043
+   Details: Agent appears to be stuck in location
+
+537. Type: softlock
+   Timestamp: 1761409169.0923388
+   Details: Agent appears to be stuck in location
+
+538. Type: softlock
+   Timestamp: 1761409169.1926165
+   Details: Agent appears to be stuck in location
+
+539. Type: softlock
+   Timestamp: 1761409169.2931464
+   Details: Agent appears to be stuck in location
+
+540. Type: softlock
+   Timestamp: 1761409169.3933876
+   Details: Agent appears to be stuck in location
+
+541. Type: softlock
+   Timestamp: 1761409169.4937446
+   Details: Agent appears to be stuck in location
+
+542. Type: softlock
+   Timestamp: 1761409169.5943959
+   Details: Agent appears to be stuck in location
+
+543. Type: softlock
+   Timestamp: 1761409169.694835
+   Details: Agent appears to be stuck in location
+
+544. Type: softlock
+   Timestamp: 1761409169.7952712
+   Details: Agent appears to be stuck in location
+
+545. Type: softlock
+   Timestamp: 1761409169.8959954
+   Details: Agent appears to be stuck in location
+
+546. Type: softlock
+   Timestamp: 1761409169.9971638
+   Details: Agent appears to be stuck in location
+
+547. Type: softlock
+   Timestamp: 1761409170.097788
+   Details: Agent appears to be stuck in location
+
+548. Type: softlock
+   Timestamp: 1761409170.198382
+   Details: Agent appears to be stuck in location
+
+549. Type: softlock
+   Timestamp: 1761409170.2987452
+   Details: Agent appears to be stuck in location
+
+550. Type: softlock
+   Timestamp: 1761409170.3991015
+   Details: Agent appears to be stuck in location
+
+551. Type: softlock
+   Timestamp: 1761409170.4996028
+   Details: Agent appears to be stuck in location
+
+552. Type: softlock
+   Timestamp: 1761409170.5998967
+   Details: Agent appears to be stuck in location
+
+553. Type: softlock
+   Timestamp: 1761409170.7002447
+   Details: Agent appears to be stuck in location
+
+554. Type: softlock
+   Timestamp: 1761409170.800573
+   Details: Agent appears to be stuck in location
+
+555. Type: softlock
+   Timestamp: 1761409170.9008784
+   Details: Agent appears to be stuck in location
+
+556. Type: softlock
+   Timestamp: 1761409171.0015376
+   Details: Agent appears to be stuck in location
+
+557. Type: softlock
+   Timestamp: 1761409171.1019168
+   Details: Agent appears to be stuck in location
+
+558. Type: softlock
+   Timestamp: 1761409171.2028344
+   Details: Agent appears to be stuck in location
+
+559. Type: softlock
+   Timestamp: 1761409171.303323
+   Details: Agent appears to be stuck in location
+
+560. Type: softlock
+   Timestamp: 1761409171.404338
+   Details: Agent appears to be stuck in location
+
+561. Type: softlock
+   Timestamp: 1761409171.5059423
+   Details: Agent appears to be stuck in location
+
+562. Type: softlock
+   Timestamp: 1761409171.6063654
+   Details: Agent appears to be stuck in location
+
+563. Type: softlock
+   Timestamp: 1761409171.706841
+   Details: Agent appears to be stuck in location
+
+564. Type: softlock
+   Timestamp: 1761409171.8075383
+   Details: Agent appears to be stuck in location
+
+565. Type: softlock
+   Timestamp: 1761409171.919366
+   Details: Agent appears to be stuck in location
+
+566. Type: softlock
+   Timestamp: 1761409172.0207157
+   Details: Agent appears to be stuck in location
+
+567. Type: softlock
+   Timestamp: 1761409172.121117
+   Details: Agent appears to be stuck in location
+
+568. Type: softlock
+   Timestamp: 1761409172.2222962
+   Details: Agent appears to be stuck in location
+
+569. Type: softlock
+   Timestamp: 1761409172.32331
+   Details: Agent appears to be stuck in location
+
+570. Type: softlock
+   Timestamp: 1761409172.4247031
+   Details: Agent appears to be stuck in location
+
+High-Level Assessment
+---------------------
+High number of issues detected, significant review needed.
+Low retry rate, game may be too easy or lacking challenge.
