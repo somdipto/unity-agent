@@ -131,11 +131,3 @@ python -c "import sys; sys.path.append('./src'); from tests.unit_tests import te
 
 - Fork → feature branch → PR
 - Add tests and update docs for new functionality
-
-## License
-
-TBD
-
----
-
-Made with ❤️ for better games.
