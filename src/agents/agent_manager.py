@@ -25,26 +25,36 @@ class AgentManager:
         self.running = False
         
     def initialize_agents(self):
-        """Initialize the required number of AI agents"""
+        """Initialize the required number of AI agents with diverse personalities"""
         try:
             # Initialize Unity integration
             if not self.unity_manager.initialize():
                 raise RuntimeError("Failed to initialize Unity integration")
-                
+            
+            # Import here to avoid circular imports
+            from .base_agent import AgentPersonality
+            personalities = list(AgentPersonality)
+            
             for i in range(self.num_agents):
+                # Distribute personalities evenly across agents
+                personality = personalities[i % len(personalities)]
+                
                 agent = BaseAgent(
                     agent_id=i,
                     game_path=self.game_path,
                     analytics_engine=self.analytics_engine,
-                    unity_manager=self.unity_manager
+                    unity_manager=self.unity_manager,
+                    personality=personality
                 )
                 self.agents.append(agent)
+                
+            print(f"Initialized {self.num_agents} agents with diverse personalities")
         except Exception as e:
             print(f"Error initializing agents: {str(e)}")
             raise
     
     def run_playtesting(self):
-        """Run the playtesting simulation with all agents"""
+        """Run the playtesting simulation with all agents and real-time monitoring"""
         print(f"Initializing {self.num_agents} agents...")
         try:
             self.initialize_agents()
@@ -54,45 +64,53 @@ class AgentManager:
             threads = []
             for agent in self.agents:
                 thread = threading.Thread(target=agent.run)
-                thread.daemon = True  # Dies when main program exits
+                thread.daemon = True
                 thread.start()
                 threads.append(thread)
             
-            # Let agents run for the specified duration
-            time.sleep(self.duration)
+            # Monitor test with real-time anomaly detection
+            start_time = time.time()
+            check_interval = 5  # Check every 5 seconds
+            
+            while time.time() - start_time < self.duration:
+                time.sleep(check_interval)
+                
+                # Check if test should be stopped early due to anomalies
+                if self.analytics_engine.should_stop_test():
+                    print("Stopping test early: Too many agents are stuck")
+                    break
+                    
+                # Print progress
+                elapsed = time.time() - start_time
+                print(f"Test progress: {elapsed:.0f}/{self.duration}s, "
+                      f"Anomalies detected: {len(self.analytics_engine.anomalies)}")
             
             # Stop all agents
             self.stop_agents()
             
             # Wait for all threads to finish with timeout
             for thread in threads:
-                thread.join(timeout=5)  # 5 second timeout for each thread
-                
+                thread.join(timeout=5)
                 if thread.is_alive():
                     print(f"Warning: Agent thread did not finish gracefully")
         
         except Exception as e:
             print(f"Error during playtesting execution: {str(e)}")
             self.stop_agents()
-            # Still try to collect partial results
             self.results = []
             for agent in self.agents:
                 try:
                     self.results.append(agent.get_results())
                 except:
-                    # If we can't get results, add an empty result
                     self.results.append({'agent_id': agent.agent_id, 'actions': [], 'errors': [str(e)]})
-            
             return self.results
         finally:
-            # Always collect results even if there were errors
             if not hasattr(self, 'results') or not self.results:
                 self.results = []
                 for agent in self.agents:
                     try:
                         self.results.append(agent.get_results())
                     except:
-                        # If we can't get results, add an empty result
                         self.results.append({'agent_id': agent.agent_id, 'actions': []})
         
         # Collect results

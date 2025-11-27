@@ -1,0 +1,13 @@
+{
+  "summary": {
+    "total_agents": 0,
+    "total_issues": 0,
+    "total_deaths": 0,
+    "total_retries": 0,
+    "issues_by_type": {},
+    "anomalies_count": 0
+  },
+  "critical_issues": [],
+  "engagement_assessment": "potentially low - game might be too easy or unengaging",
+  "fun_assessment_prompt": "\n        Please assess the fun/engagement level of this game based on the following playtesting data:\n\n        - Total agents: 0\n        - Total issues detected: 0\n        - Issues by type: {}\n        - Average retries per agent: 0.00\n        - Total deaths: 0\n        - Anomalies detected: 0\n\n        Based on these metrics, assess:\n        1. Is the game engaging?\n        2. Is it appropriately challenging?\n        3. Are there any major obstacles to fun?\n        4. What improvements would you suggest?\n        "
+}

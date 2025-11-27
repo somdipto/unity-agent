@@ -1,0 +1,21 @@
+AI Playtesting System - Human-Readable Report
+==================================================
+
+Test Session Summary
+--------------------
+Generated At: 2025-10-27T00:58:17.114360
+Total Agents: 0
+Total Test Time: 0.00 seconds
+Total Deaths: 0
+Total Retries: 0
+
+Aggregated Metrics
+------------------
+Total Issues Detected: 0
+Average Retries per Agent: 0.00
+Average Deaths per Agent: 0.00
+
+High-Level Assessment
+---------------------
+No issues were detected during testing.
+Low retry rate, game may be too easy or lacking challenge.

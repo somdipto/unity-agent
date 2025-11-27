@@ -3,9 +3,17 @@ Base Agent - The fundamental AI agent that interacts with the game
 """
 import time
 import random
+from enum import Enum
 from typing import Dict, Any, List
 from ..utils.game_state import GameState
 from ..analytics.analytics_engine import AnalyticsEngine
+
+
+class AgentPersonality(Enum):
+    CAUTIOUS = "cautious"
+    AGGRESSIVE = "aggressive" 
+    RANDOM = "random"
+    SPEEDRUNNER = "speedrunner"
 
 
 class BaseAgent:
@@ -13,15 +21,28 @@ class BaseAgent:
     Base AI agent that simulates player behavior in games
     """
     
-    def __init__(self, agent_id: int, game_path: str, analytics_engine: AnalyticsEngine, unity_manager = None):
+    def __init__(self, agent_id: int, game_path: str, analytics_engine: AnalyticsEngine, 
+                 unity_manager=None, personality: AgentPersonality = None):
         self.agent_id = agent_id
         self.game_path = game_path
         self.analytics_engine = analytics_engine
         self.unity_manager = unity_manager
         self.game_state = GameState()
         self.is_running = False
+        
+        # Assign personality if not provided
+        if personality is None:
+            personalities = list(AgentPersonality)
+            self.personality = personalities[agent_id % len(personalities)]
+        else:
+            self.personality = personality
+            
+        # Adjust behavior parameters based on personality
+        self._set_personality_traits()
+        
         self.results: Dict[str, Any] = {
             'agent_id': agent_id,
+            'personality': self.personality.value,
             'actions': [],
             'time_spent': 0,
             'retries': 0,
@@ -31,10 +52,24 @@ class BaseAgent:
             'engagement_metrics': {}
         }
         
-        # Agent behavior parameters
-        self.exploration_bias = 0.7  # Higher values mean more exploration
-        self.caution_level = 0.5    # Affects risk-taking behavior
-        self.focus_duration = 5     # Time before changing behavior pattern
+    def _set_personality_traits(self):
+        """Set behavior parameters based on agent personality"""
+        if self.personality == AgentPersonality.CAUTIOUS:
+            self.exploration_bias = 0.3
+            self.caution_level = 0.9
+            self.focus_duration = 10
+        elif self.personality == AgentPersonality.AGGRESSIVE:
+            self.exploration_bias = 0.8
+            self.caution_level = 0.2
+            self.focus_duration = 3
+        elif self.personality == AgentPersonality.RANDOM:
+            self.exploration_bias = random.uniform(0.1, 0.9)
+            self.caution_level = random.uniform(0.1, 0.9)
+            self.focus_duration = random.randint(1, 8)
+        elif self.personality == AgentPersonality.SPEEDRUNNER:
+            self.exploration_bias = 0.1
+            self.caution_level = 0.3
+            self.focus_duration = 2
         
     def run(self):
         """Main execution loop for the agent"""

@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-27T00:58:17.114360",
+    "total_agents": 0,
+    "total_test_time": 0,
+    "total_deaths": 0,
+    "total_retries": 0
+  },
+  "individual_agent_reports": [],
+  "aggregated_metrics": {
+    "total_issues_detected": 0,
+    "issues_by_type": {},
+    "average_retries_per_agent": 0.0,
+    "average_deaths_per_agent": 0.0
+  },
+  "detected_issues": [],
+  "anomalies": []
+}

@@ -25,35 +25,39 @@ class UnityConnector:
         self.response_callbacks: Dict[str, Callable] = {}
         self.request_id_counter = 0
         
-    def connect(self) -> bool:
-        """Establish connection to Unity game"""
-        try:
-            self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            # Set socket options for better reliability
-            self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-            self.socket.settimeout(self.timeout)
-            
-            self.socket.connect((self.host, self.port))
-            self.is_connected = True
-            
-            # Start message listening thread
-            self.listener_thread = threading.Thread(target=self._listen_for_messages, daemon=True)
-            self.listener_thread.start()
-            
-            print(f"Connected to Unity game at {self.host}:{self.port}")
-            return True
-        except ConnectionRefusedError:
-            print(f"Failed to connect to Unity: Connection refused at {self.host}:{self.port}")
-            self.is_connected = False
-            return False
-        except socket.timeout:
-            print(f"Failed to connect to Unity: Connection timeout ({self.timeout}s)")
-            self.is_connected = False
-            return False
-        except Exception as e:
-            print(f"Unexpected error connecting to Unity: {str(e)}")
-            self.is_connected = False
-            return False
+    def connect(self, max_retries: int = 3) -> bool:
+        """Establish connection to Unity game with retry logic"""
+        for attempt in range(max_retries):
+            try:
+                self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+                self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_KEEPALIVE, 1)
+                self.socket.settimeout(self.timeout)
+                
+                self.socket.connect((self.host, self.port))
+                self.is_connected = True
+                
+                # Start message listening thread
+                self.listener_thread = threading.Thread(target=self._listen_for_messages, daemon=True)
+                self.listener_thread.start()
+                
+                print(f"Connected to Unity game at {self.host}:{self.port}")
+                return True
+                
+            except (ConnectionRefusedError, socket.timeout) as e:
+                if attempt < max_retries - 1:
+                    wait_time = 2 ** attempt  # Exponential backoff
+                    print(f"Connection attempt {attempt + 1} failed, retrying in {wait_time}s...")
+                    time.sleep(wait_time)
+                else:
+                    print(f"Failed to connect after {max_retries} attempts: {e}")
+                    
+            except Exception as e:
+                print(f"Unexpected error connecting to Unity: {str(e)}")
+                break
+                
+        self.is_connected = False
+        return False
     
     def disconnect(self):
         """Close connection to Unity game"""
@@ -63,9 +67,10 @@ class UnityConnector:
         print("Disconnected from Unity game")
     
     def send_message(self, message_type: str, data: Dict[str, Any]) -> str:
-        """Send a message to the Unity game and return a request ID"""
+        """Send a message to the Unity game with auto-reconnect"""
         if not self.is_connected:
-            raise ConnectionError("Not connected to Unity game")
+            if not self.connect():
+                raise ConnectionError("Cannot establish connection to Unity game")
         
         self.request_id_counter += 1
         request_id = f"req_{self.request_id_counter}"
@@ -78,13 +83,19 @@ class UnityConnector:
         }
         
         try:
-            # Use a more efficient serialization approach
-            serialized_message = json.dumps(message, separators=(',', ':'))  # Compact JSON
+            serialized_message = json.dumps(message, separators=(',', ':'))
             self.socket.send(serialized_message.encode('utf-8'))
             return request_id
-        except BlockingIOError:
-            print(f"Failed to send message: socket would block")
-            return ""
+        except (BrokenPipeError, ConnectionResetError):
+            # Connection lost, try to reconnect once
+            print("Connection lost, attempting to reconnect...")
+            self.is_connected = False
+            if self.connect():
+                serialized_message = json.dumps(message, separators=(',', ':'))
+                self.socket.send(serialized_message.encode('utf-8'))
+                return request_id
+            else:
+                raise ConnectionError("Failed to reconnect to Unity game")
         except Exception as e:
             print(f"Failed to send message: {str(e)}")
             return ""

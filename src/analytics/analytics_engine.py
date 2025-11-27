@@ -25,14 +25,66 @@ class AnalyticsEngine:
         self.issue_logs = []
         self.session_start_time = time.time()
         
+        # Real-time anomaly detection
+        self.agent_positions = {}  # Track last known positions
+        self.agent_stuck_times = {}  # Track how long agents have been stuck
+        self.stuck_threshold = 30.0  # Seconds before considering an agent stuck
+        self.anomalies = []
+        
     def log_agent_action(self, agent_id: int, action: str, game_state: Dict[str, Any]):
-        """Log an action taken by an agent"""
-        # More efficient timestamp calculation using cached start time
+        """Log an action taken by an agent with real-time anomaly detection"""
         timestamp = time.time() - self.session_start_time
         
-        # More compact record structure
+        # Check for stuck agents in real-time
+        if 'position' in game_state:
+            self._check_agent_movement(agent_id, game_state['position'], timestamp)
+        
         action_record = (timestamp, action, game_state, agent_id)
         self.agents_data[agent_id].append(action_record)
+    
+    def _check_agent_movement(self, agent_id: int, position: tuple, timestamp: float):
+        """Check if agent is stuck and log anomalies"""
+        if agent_id not in self.agent_positions:
+            self.agent_positions[agent_id] = position
+            self.agent_stuck_times[agent_id] = timestamp
+            return
+        
+        # Calculate distance moved
+        prev_pos = self.agent_positions[agent_id]
+        distance = sum((a - b) ** 2 for a, b in zip(position, prev_pos)) ** 0.5
+        
+        if distance < 0.1:  # Agent barely moved
+            stuck_duration = timestamp - self.agent_stuck_times[agent_id]
+            if stuck_duration > self.stuck_threshold:
+                # Log soft-lock anomaly
+                anomaly = {
+                    'type': 'soft_lock',
+                    'agent_id': agent_id,
+                    'position': position,
+                    'duration': stuck_duration,
+                    'timestamp': timestamp
+                }
+                self.anomalies.append(anomaly)
+                self.issue_logs.append(f"Agent {agent_id} soft-locked at {position} for {stuck_duration:.1f}s")
+        else:
+            # Agent moved, reset stuck timer
+            self.agent_positions[agent_id] = position
+            self.agent_stuck_times[agent_id] = timestamp
+    
+    def should_stop_test(self) -> bool:
+        """Check if test should be stopped due to too many stuck agents"""
+        if not self.agent_positions:
+            return False
+            
+        current_time = time.time() - self.session_start_time
+        stuck_agents = 0
+        
+        for agent_id, stuck_time in self.agent_stuck_times.items():
+            if current_time - stuck_time > self.stuck_threshold:
+                stuck_agents += 1
+        
+        # Stop if more than 50% of agents are stuck
+        return stuck_agents > len(self.agent_positions) * 0.5
     
     def log_agent_death(self, agent_id: int):
         """Log when an agent dies in the game"""
