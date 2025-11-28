@@ -5,7 +5,7 @@ import json
 import socket
 import threading
 import time
-from typing import Dict, Any, Optional, Callable
+from typing import Dict, Any, Optional, Callable, Tuple
 from ..utils.config import get_unity_connection_settings
 
 
@@ -22,7 +22,8 @@ class UnityConnector:
         self.socket: Optional[socket.socket] = None
         self.is_connected = False
         self.message_handlers: Dict[str, Callable] = {}
-        self.response_callbacks: Dict[str, Callable] = {}
+        # response_callbacks maps request_id to (threading.Event, result_container_dict)
+        self.response_callbacks: Dict[str, Tuple[threading.Event, Dict]] = {}
         self.request_id_counter = 0
         
     def connect(self, max_retries: int = 3) -> bool:
@@ -120,12 +121,12 @@ class UnityConnector:
             'timestamp': time.time()
         }
         
-        # Store callback to handle the response when it arrives
-        response_queue = []
-        def callback(response):
-            response_queue.append(response)
+        # Use threading.Event for efficient waiting
+        response_event = threading.Event()
+        result_container = {}
         
-        self.response_callbacks[request_id] = callback
+        # Store the event and container to handle the response when it arrives
+        self.response_callbacks[request_id] = (response_event, result_container)
         
         # Send the message
         try:
@@ -133,23 +134,24 @@ class UnityConnector:
             self.socket.send(serialized_message.encode('utf-8'))
         except Exception as e:
             print(f"Failed to send get_state message: {str(e)}")
-            # Return default state if communication fails
+            # Cleanup callback
+            if request_id in self.response_callbacks:
+                del self.response_callbacks[request_id]
             return self._get_default_game_state()
         
         # Wait for response with timeout
-        timeout = time.time() + self.timeout
-        while time.time() < timeout:
-            if response_queue:
-                response = response_queue[0]
+        if response_event.wait(self.timeout):
+            if 'response' in result_container:
+                response = result_container['response']
                 if 'data' in response:
                     return response['data']
-                else:
-                    # If response doesn't have expected data structure, return default
-                    return self._get_default_game_state()
-            time.sleep(0.01)  # Small delay to prevent busy waiting
+        else:
+            print(f"Warning: No response received for get_state request {request_id}")
         
-        # If no response received within timeout, return default state
-        print(f"Warning: No response received for get_state request {request_id}")
+        # Ensure cleanup if timeout occurred
+        if request_id in self.response_callbacks:
+            del self.response_callbacks[request_id]
+            
         return self._get_default_game_state()
 
     def _get_default_game_state(self) -> Dict[str, Any]:
@@ -193,15 +195,11 @@ class UnityConnector:
                 
                 # Handle response to a request
                 if 'id' in message and message['id'] in self.response_callbacks:
-                    callback = self.response_callbacks[message['id']]
-                    try:
-                        callback(message)
-                    except Exception as cb_error:
-                        print(f"Error in callback for message {message.get('id', 'unknown')}: {str(cb_error)}")
-                    finally:
-                        # Always remove the callback to prevent memory leaks
-                        if message['id'] in self.response_callbacks:
-                            del self.response_callbacks[message['id']]
+                    response_event, result_container = self.response_callbacks[message['id']]
+                    result_container['response'] = message
+                    response_event.set()
+                    # The waiting thread will delete the callback entry
+                    
                 # Handle incoming message
                 elif 'type' in message and message['type'] in self.message_handlers:
                     handler = self.message_handlers[message['type']]
@@ -253,12 +251,11 @@ class UnityConnector:
             'timestamp': time.time()
         }
         
-        # Store callback to handle the response when it arrives
-        response_queue = []
-        def callback(response):
-            response_queue.append(response)
+        # Use threading.Event for efficient waiting
+        response_event = threading.Event()
+        result_container = {}
         
-        self.response_callbacks[request_id] = callback
+        self.response_callbacks[request_id] = (response_event, result_container)
         
         # Send the message
         try:
@@ -266,23 +263,23 @@ class UnityConnector:
             self.socket.send(serialized_message.encode('utf-8'))
         except Exception as e:
             print(f"Failed to send get_level_data message: {str(e)}")
-            # Return default level data if communication fails
+            if request_id in self.response_callbacks:
+                del self.response_callbacks[request_id]
             return self._get_default_level_data(level_name)
         
         # Wait for response with timeout
-        timeout = time.time() + self.timeout
-        while time.time() < timeout:
-            if response_queue:
-                response = response_queue[0]
+        if response_event.wait(self.timeout):
+            if 'response' in result_container:
+                response = result_container['response']
                 if 'data' in response:
                     return response['data']
-                else:
-                    # If response doesn't have expected data structure, return default
-                    return self._get_default_level_data(level_name)
-            time.sleep(0.01)  # Small delay to prevent busy waiting
+        else:
+            print(f"Warning: No response received for get_level_data request {request_id}")
         
-        # If no response received within timeout, return default level data
-        print(f"Warning: No response received for get_level_data request {request_id}")
+        # Ensure cleanup
+        if request_id in self.response_callbacks:
+            del self.response_callbacks[request_id]
+            
         return self._get_default_level_data(level_name)
 
     def _get_default_level_data(self, level_name: str) -> Dict[str, Any]:

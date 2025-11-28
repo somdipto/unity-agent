@@ -4,8 +4,9 @@ Report Generator - Creates structured reports with JSON and human-readable forma
 import json
 import os
 from datetime import datetime
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 from ..analytics.analytics_engine import AnalyticsEngine
+from .llm_analyzer import LLMAnalyzer
 
 
 class ReportGenerator:
@@ -13,8 +14,9 @@ class ReportGenerator:
     Generates comprehensive reports from playtesting data
     """
     
-    def __init__(self, output_dir: str = "./reports"):
+    def __init__(self, output_dir: str = "./reports", llm_analyzer: Optional[LLMAnalyzer] = None):
         self.output_dir = output_dir
+        self.llm_analyzer = llm_analyzer
         self.ensure_output_directory()
         
     def ensure_output_directory(self):
@@ -34,17 +36,37 @@ class ReportGenerator:
         with open(json_path, 'w') as f:
             json.dump(json_report, f, indent=2)
         
-        # Generate human-readable report
-        human_readable_report = self.create_human_readable_report(json_report)
+        # Generate LLM insights if analyzer is available
+        llm_insights = {}
+        narrative_report = ""
+        
+        if self.llm_analyzer:
+            print("Generating LLM insights...")
+            try:
+                # Generate structured assessments
+                fun_assessment = self.llm_analyzer.assess_fun_factor(json_report)
+                improvements = self.llm_analyzer.suggest_improvements(json_report)
+                narrative_report = self.llm_analyzer.generate_narrative_report(json_report)
+                
+                llm_insights = {
+                    "fun_assessment": fun_assessment,
+                    "improvements": improvements,
+                    "narrative_report": narrative_report
+                }
+                
+                # Save structured LLM insights
+                insights_path = os.path.join(report_dir, "llm_insights.json")
+                with open(insights_path, 'w') as f:
+                    json.dump(llm_insights, f, indent=2)
+                    
+            except Exception as e:
+                print(f"Error generating LLM insights: {e}")
+        
+        # Generate human-readable report (including LLM narrative if available)
+        human_readable_report = self.create_human_readable_report(json_report, narrative_report)
         text_path = os.path.join(report_dir, "human_readable_report.txt")
         with open(text_path, 'w') as f:
             f.write(human_readable_report)
-        
-        # Generate LLM-friendly summary for fun assessment
-        llm_summary = self.create_llm_summary(json_report)
-        llm_path = os.path.join(report_dir, "llm_summary.json")
-        with open(llm_path, 'w') as f:
-            json.dump(llm_summary, f, indent=2)
         
         print(f"Reports generated in: {report_dir}")
         
@@ -103,7 +125,7 @@ class ReportGenerator:
         
         return anomalies
     
-    def create_human_readable_report(self, json_report: Dict[str, Any]) -> str:
+    def create_human_readable_report(self, json_report: Dict[str, Any], narrative_report: str = "") -> str:
         """Create a human-readable report from JSON data"""
         report_lines = []
         report_lines.append("AI Playtesting System - Human-Readable Report")
@@ -171,77 +193,12 @@ class ReportGenerator:
         else:
             report_lines.append("Low retry rate, game may be too easy or lacking challenge.")
         
+        # Append LLM Narrative if available
+        if narrative_report:
+            report_lines.append("")
+            report_lines.append("AI Experience Narrative")
+            report_lines.append("-" * 23)
+            report_lines.append(narrative_report)
+            report_lines.append("")
+
         return "\n".join(report_lines)
-    
-    def create_llm_summary(self, json_report: Dict[str, Any]) -> Dict[str, Any]:
-        """Create a summary suitable for LLM processing"""
-        # Extract key metrics for LLM assessment
-        agg_metrics = json_report['aggregated_metrics']
-        
-        llm_summary = {
-            'summary': {
-                'total_agents': json_report['metadata']['total_agents'],
-                'total_issues': agg_metrics['total_issues_detected'],
-                'total_deaths': json_report['metadata']['total_deaths'],
-                'total_retries': json_report['metadata']['total_retries'],
-                'issues_by_type': agg_metrics['issues_by_type'],
-                'anomalies_count': len(json_report['anomalies'])
-            },
-            'critical_issues': self._identify_critical_issues(json_report['anomalies']),
-            'engagement_assessment': self._assess_engagement(
-                agg_metrics['average_retries_per_agent'],
-                json_report['metadata']['total_deaths']
-            ),
-            'fun_assessment_prompt': self._create_fun_assessment_prompt(json_report)
-        }
-        
-        return llm_summary
-    
-    def _identify_critical_issues(self, anomalies: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """Identify critical issues from anomalies"""
-        critical_types = {'softlock', 'infinite_loop', 'crash'}
-        critical_issues = []
-        
-        for anomaly in anomalies:
-            if anomaly.get('type') in critical_types:
-                critical_issues.append(anomaly)
-        
-        return critical_issues
-    
-    def _assess_engagement(self, avg_retries: float, total_deaths: int) -> str:
-        """Assess engagement level based on metrics"""
-        engagement_level = "unknown"
-        
-        if avg_retries < 0.5 and total_deaths < 2:
-            engagement_level = "potentially low - game might be too easy or unengaging"
-        elif 0.5 <= avg_retries <= 2.0 and 2 <= total_deaths <= 10:
-            engagement_level = "healthy - appropriate challenge level"
-        elif 2.0 < avg_retries <= 5.0 or 10 < total_deaths <= 20:
-            engagement_level = "high frustration risk - too challenging"
-        else:
-            engagement_level = "unbalanced - extreme challenge levels"
-        
-        return engagement_level
-    
-    def _create_fun_assessment_prompt(self, json_report: Dict[str, Any]) -> str:
-        """Create a prompt for LLM-based fun assessment"""
-        agg_metrics = json_report['aggregated_metrics']
-        
-        prompt = f"""
-        Please assess the fun/engagement level of this game based on the following playtesting data:
-
-        - Total agents: {json_report['metadata']['total_agents']}
-        - Total issues detected: {agg_metrics['total_issues_detected']}
-        - Issues by type: {agg_metrics['issues_by_type']}
-        - Average retries per agent: {agg_metrics['average_retries_per_agent']:.2f}
-        - Total deaths: {json_report['metadata']['total_deaths']}
-        - Anomalies detected: {len(json_report['anomalies'])}
-
-        Based on these metrics, assess:
-        1. Is the game engaging?
-        2. Is it appropriately challenging?
-        3. Are there any major obstacles to fun?
-        4. What improvements would you suggest?
-        """
-        
-        return prompt

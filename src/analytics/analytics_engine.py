@@ -3,6 +3,7 @@ Analytics Engine - Core system for collecting, processing, and analyzing gamepla
 """
 import time
 import json
+import threading
 from typing import Dict, Any, List
 from collections import defaultdict
 import pandas as pd
@@ -17,6 +18,7 @@ class AnalyticsEngine:
     """
     
     def __init__(self):
+        self.lock = threading.Lock()  # Ensure thread safety for multi-threaded agent logging
         self.agents_data = defaultdict(list)  # Data per agent
         self.global_events = []  # Events affecting all agents
         self.performance_metrics = {}
@@ -35,15 +37,17 @@ class AnalyticsEngine:
         """Log an action taken by an agent with real-time anomaly detection"""
         timestamp = time.time() - self.session_start_time
         
-        # Check for stuck agents in real-time
-        if 'position' in game_state:
-            self._check_agent_movement(agent_id, game_state['position'], timestamp)
-        
-        action_record = (timestamp, action, game_state, agent_id)
-        self.agents_data[agent_id].append(action_record)
+        with self.lock:
+            # Check for stuck agents in real-time
+            if 'position' in game_state:
+                self._check_agent_movement(agent_id, game_state['position'], timestamp)
+            
+            action_record = (timestamp, action, game_state, agent_id)
+            self.agents_data[agent_id].append(action_record)
     
     def _check_agent_movement(self, agent_id: int, position: tuple, timestamp: float):
         """Check if agent is stuck and log anomalies"""
+        # Note: This method should be called within a lock context
         if agent_id not in self.agent_positions:
             self.agent_positions[agent_id] = position
             self.agent_stuck_times[agent_id] = timestamp
@@ -73,18 +77,19 @@ class AnalyticsEngine:
     
     def should_stop_test(self) -> bool:
         """Check if test should be stopped due to too many stuck agents"""
-        if not self.agent_positions:
-            return False
+        with self.lock:
+            if not self.agent_positions:
+                return False
+                
+            current_time = time.time() - self.session_start_time
+            stuck_agents = 0
             
-        current_time = time.time() - self.session_start_time
-        stuck_agents = 0
-        
-        for agent_id, stuck_time in self.agent_stuck_times.items():
-            if current_time - stuck_time > self.stuck_threshold:
-                stuck_agents += 1
-        
-        # Stop if more than 50% of agents are stuck
-        return stuck_agents > len(self.agent_positions) * 0.5
+            for agent_id, stuck_time in self.agent_stuck_times.items():
+                if current_time - stuck_time > self.stuck_threshold:
+                    stuck_agents += 1
+            
+            # Stop if more than 50% of agents are stuck
+            return stuck_agents > len(self.agent_positions) * 0.5
     
     def log_agent_death(self, agent_id: int):
         """Log when an agent dies in the game"""
@@ -93,7 +98,8 @@ class AnalyticsEngine:
             'event': 'death',
             'agent_id': agent_id
         }
-        self.global_events.append(death_record)
+        with self.lock:
+            self.global_events.append(death_record)
         
     def log_retry(self, agent_id: int):
         """Log when an agent retries a section"""
@@ -102,7 +108,8 @@ class AnalyticsEngine:
             'event': 'retry',
             'agent_id': agent_id
         }
-        self.global_events.append(retry_record)
+        with self.lock:
+            self.global_events.append(retry_record)
         
     def log_high_engagement(self, agent_id: int, action: str):
         """Log high engagement events"""
@@ -112,7 +119,8 @@ class AnalyticsEngine:
             'agent_id': agent_id,
             'engagement_level': 'high'
         }
-        self.engagement_data[agent_id].append(engagement_record)
+        with self.lock:
+            self.engagement_data[agent_id].append(engagement_record)
         
     def log_progression(self, agent_id: int, action: str):
         """Log progression-related events"""
@@ -122,7 +130,8 @@ class AnalyticsEngine:
             'agent_id': agent_id,
             'event_type': 'progression'
         }
-        self.agents_data[agent_id].append(progression_record)
+        with self.lock:
+            self.agents_data[agent_id].append(progression_record)
     
     def log_anomaly(self, anomaly_type: str, details: Dict[str, Any]):
         """Log detected anomalies like softlocks or infinite loops"""
@@ -131,24 +140,30 @@ class AnalyticsEngine:
             'type': anomaly_type,
             'details': details
         }
-        self.issue_logs.append(anomaly_record)
+        with self.lock:
+            self.issue_logs.append(anomaly_record)
     
     def log_position(self, agent_id: int, position: tuple, level: str = "default"):
         """Log agent position for heatmap generation"""
         x, y, z = position
         # For heatmap, we'll use x, z coordinates (top-down view)
-        self.heatmap_data[level][(int(x), int(z))] += 1
+        with self.lock:
+            self.heatmap_data[level][(int(x), int(z))] += 1
     
     def get_agent_metrics(self, agent_id: int) -> Dict[str, Any]:
         """Get computed metrics for a specific agent"""
-        agent_data = self.agents_data[agent_id]
-        engagements = self.engagement_data[agent_id]
+        with self.lock:
+            # Create copies to avoid holding lock during calculations if possible, 
+            # but here calculations are fast enough.
+            agent_data = list(self.agents_data[agent_id])
+            engagements = list(self.engagement_data[agent_id])
+            global_events = list(self.global_events)
         
         # Calculate basic metrics
         total_actions = len(agent_data)
         high_engagement_count = len([e for e in engagements if e['engagement_level'] == 'high'])
-        death_count = len([e for e in self.global_events if e['event'] == 'death' and e['agent_id'] == agent_id])
-        retry_count = len([e for e in self.global_events if e['event'] == 'retry' and e['agent_id'] == agent_id])
+        death_count = len([e for e in global_events if e['event'] == 'death' and e['agent_id'] == agent_id])
+        retry_count = len([e for e in global_events if e['event'] == 'retry' and e['agent_id'] == agent_id])
         
         # Calculate engagement rate
         engagement_rate = high_engagement_count / max(1, total_actions)
@@ -174,12 +189,15 @@ class AnalyticsEngine:
     
     def generate_heatmap(self, level: str = "default", output_path: str = None) -> np.ndarray:
         """Generate a heatmap of agent activity in a level"""
-        if level not in self.heatmap_data:
-            print(f"No heatmap data for level: {level}")
-            return np.array([])
-        
-        # Get all coordinates with activity
-        coords = list(self.heatmap_data[level].keys())
+        with self.lock:
+            if level not in self.heatmap_data:
+                print(f"No heatmap data for level: {level}")
+                return np.array([])
+            
+            # Get all coordinates with activity - copy dict to avoid mutation during iteration
+            coords_data = dict(self.heatmap_data[level])
+            
+        coords = list(coords_data.keys())
         if not coords:
             print(f"No activity data for level: {level}")
             return np.array([])
@@ -197,7 +215,7 @@ class AnalyticsEngine:
         heatmap = np.zeros((grid_height, grid_width))
         
         # Fill grid with activity counts
-        for (x, z), count in self.heatmap_data[level].items():
+        for (x, z), count in coords_data.items():
             grid_x = x - min_x
             grid_z = z - min_z
             heatmap[grid_z, grid_x] = count

@@ -2,10 +2,12 @@
 Main entry point for the AI-Driven Playtesting System
 """
 import argparse
+import os
 from src.agents.agent_manager import AgentManager
 from src.swarm.swarm_orchestrator import SwarmOrchestrator
 from src.analytics.analytics_engine import AnalyticsEngine
 from src.reporting.report_generator import ReportGenerator
+from src.reporting.llm_analyzer import LLMAnalyzer
 
 
 def main():
@@ -15,6 +17,7 @@ def main():
     parser.add_argument("--multiplayer", action="store_true", help="Run multiplayer swarm test")
     parser.add_argument("--duration", type=int, default=300, help="Test duration in seconds")
     parser.add_argument("--output", default="./reports", help="Output directory for reports")
+    parser.add_argument("--api-key", help="OpenAI API Key for qualitative analysis")
     
     args = parser.parse_args()
     
@@ -25,7 +28,29 @@ def main():
     try:
         # Initialize components
         analytics_engine = AnalyticsEngine()
-        report_generator = ReportGenerator(output_dir=args.output)
+        
+        # Initialize LLM Analyzer
+        llm_analyzer = None
+        api_key = args.api_key or os.environ.get("OPENAI_API_KEY")
+        
+        if api_key:
+            print("LLM Analysis: ENABLED (API Key detected)")
+            llm_analyzer = LLMAnalyzer(api_key=api_key)
+        else:
+            # Try to init without explicit key (might pick up from internal config)
+            try:
+                analyzer_candidate = LLMAnalyzer()
+                # Check if it actually found a key in config
+                import openai
+                if openai.api_key:
+                    print("LLM Analysis: ENABLED (Config Key detected)")
+                    llm_analyzer = analyzer_candidate
+                else:
+                    print("LLM Analysis: DISABLED (No API Key provided)")
+            except Exception:
+                 print("LLM Analysis: DISABLED (Initialization failed)")
+
+        report_generator = ReportGenerator(output_dir=args.output, llm_analyzer=llm_analyzer)
         
         if args.multiplayer:
             # Run swarm test
