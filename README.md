@@ -55,14 +55,87 @@ python -m src.__main__ --game-path /path/to/game.exe --agents 10 --duration 300 
 The system uses a synchronous, multi-threaded architecture to manage agents, while utilizing a thread-safe Analytics Engine for data aggregation.
 
 ```mermaid
-flowchart LR
-  U[Unity Game] <-- JSON/TCP (Optimized) --> C[PythonConnector.cs]
-  C -->|Events| A[AI Agents (Threads)]
-  A -->|Locks| E[Analytics Engine]
-  A --> S[Swarm Orchestrator]
-  E --> R[Report Generator]
-  R -->|Queries| L[LLM Analyzer (OpenAI)]
-  R --> D((reports/))
+flowchart TB
+  subgraph Unity["Unity Game Process"]
+    PC[PythonConnector.cs]
+    WS[WebSocketServer.cs]
+    PH[PlayerHealth.cs]
+    CM[CombatManager.cs]
+    OT[ObjectiveTracker.cs]
+  end
+  
+  subgraph Python["Python AI System"]
+    Main[__main__.py]
+    
+    subgraph Integration["unity_integration/"]
+      UC[unity_connector.py]
+      UIM[unity_integration_manager.py]
+    end
+    
+    subgraph Agents["agents/"]
+      AM[agent_manager.py]
+      BA[base_agent.py]
+      PS[personalities.py]
+    end
+    
+    subgraph Swarm["swarm/"]
+      SO[swarm_orchestrator.py]
+    end
+    
+    subgraph Analytics["analytics/"]
+      AE[analytics_engine.py]
+      RD[realtime_detector.py]
+      HM[heatmap_generator.py]
+    end
+    
+    subgraph Reporting["reporting/"]
+      RG[report_generator.py]
+      LA[llm_analyzer.py]
+    end
+    
+    subgraph Utils["utils/"]
+      GS[game_state.py]
+      CF[config.py]
+    end
+  end
+  
+  Output[(reports/)]
+  OpenAI[OpenAI API]
+  
+  PC <-->|JSON/TCP| UC
+  WS <-->|WebSocket| UC
+  UC --> UIM
+  
+  Main --> AM
+  Main --> SO
+  Main --> AE
+  Main --> RG
+  Main --> LA
+  
+  AM --> UIM
+  AM --> BA
+  SO --> UIM
+  SO --> BA
+  
+  BA -->|Thread-Safe Locks| AE
+  BA --> PS
+  BA --> GS
+  
+  UIM --> UC
+  UIM --> AE
+  
+  AE --> RD
+  AE --> HM
+  AE --> GS
+  
+  RG --> AE
+  RG --> LA
+  LA -->|API Calls| OpenAI
+  
+  RG --> Output
+  
+  CF -.->|Config| UC
+  CF -.->|Config| LA
 ```
 
 ## Command Line Options
