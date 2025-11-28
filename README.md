@@ -75,7 +75,7 @@ flowchart TB
     subgraph Agents["agents/"]
       AM[agent_manager.py]
       BA[base_agent.py]
-      PS[personalities.py]
+      PERS[personalities.py]
     end
     
     subgraph Swarm["swarm/"]
@@ -118,7 +118,7 @@ flowchart TB
   SO --> BA
   
   BA -->|Thread-Safe Locks| AE
-  BA --> PS
+  BA --> PERS
   BA --> GS
   
   UIM --> UC
